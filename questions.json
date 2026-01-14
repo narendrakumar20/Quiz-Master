@@ -1,0 +1,3550 @@
+{
+  "C": [
+  {
+    "question": "Which symbol is used to end a statement in C?",
+    "options": [";", ":", ".", ","],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to define a constant in C?",
+    "options": ["const", "define", "static", "final"],
+    "correct": 0
+  },
+  {
+    "question": "Which function is used to read input from the user?",
+    "options": ["printf()", "scanf()", "input()", "read()"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for logical AND in C?",
+    "options": ["&", "&&", "|", "||"],
+    "correct": 1
+  },
+  {
+    "question": "What is the size of int data type (commonly)?",
+    "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+    "correct": 2
+  },
+  {
+    "question": "Which loop executes at least once?",
+    "options": ["for", "while", "do-while", "if"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to define a function?",
+    "options": ["function", "def", "void", "func"],
+    "correct": 2
+  },
+  {
+    "question": "What is the correct syntax for comments in C?",
+    "options": ["// comment", "# comment", "<!-- comment -->", "** comment **"],
+    "correct": 0
+  },
+  {
+    "question": "Which operator is used to access address of a variable?",
+    "options": ["*", "&", "%", "#"],
+    "correct": 1
+  },
+  {
+    "question": "Which data type is used to store characters?",
+    "options": ["int", "char", "float", "double"],
+    "correct": 1
+  },
+  {
+    "question": "What is the default return type of main()?",
+    "options": ["void", "float", "int", "char"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to exit a loop?",
+    "options": ["exit", "break", "stop", "return"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for equality check?",
+    "options": ["=", "==", "!=", "<="],
+    "correct": 1
+  },
+  {
+    "question": "Which function is used to print output?",
+    "options": ["scanf()", "print()", "printf()", "output()"],
+    "correct": 2
+  },
+  {
+    "question": "What does sizeof operator return?",
+    "options": ["Value", "Address", "Size in bytes", "Data type"],
+    "correct": 2
+  },
+  {
+    "question": "Which header file is needed for math functions?",
+    "options": ["<math.h>", "<stdio.h>", "<stdlib.h>", "<string.h>"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used for conditional statement?",
+    "options": ["loop", "switch", "if", "case"],
+    "correct": 2
+  },
+  {
+    "question": "Which of these is a relational operator?",
+    "options": ["+", "-", ">", "*"],
+    "correct": 2
+  },
+  {
+    "question": "Which array index starts in C?",
+    "options": ["0", "1", "-1", "Depends"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to continue loop iteration?",
+    "options": ["next", "continue", "skip", "pass"],
+    "correct": 1
+  },
+  {
+    "question": "Which data type stores decimal values?",
+    "options": ["int", "char", "float", "long"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to declare a pointer?",
+    "options": ["ptr", "*", "&", "pointer"],
+    "correct": 1
+  },
+  {
+    "question": "What is the correct syntax of for loop?",
+    "options": ["for(i=0;i<n;i++)", "for i=0 to n", "loop(i)", "foreach(i)"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to create a structure?",
+    "options": ["struct", "structure", "record", "class"],
+    "correct": 0
+  },
+  {
+    "question": "Which operator is used for modulus?",
+    "options": ["%", "/", "*", "//"],
+    "correct": 0
+  },
+  {
+    "question": "Which function compares strings?",
+    "options": ["strcmp()", "strcpy()", "strlen()", "strcat()"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to allocate memory dynamically?",
+    "options": ["alloc", "malloc", "new", "create"],
+    "correct": 1
+  },
+  {
+    "question": "Which header file supports dynamic memory?",
+    "options": ["<stdio.h>", "<stdlib.h>", "<memory.h>", "<alloc.h>"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to free memory?",
+    "options": ["delete", "remove", "free", "clear"],
+    "correct": 2
+  },
+  {
+    "question": "Which loop is best when number of iterations is known?",
+    "options": ["while", "do-while", "for", "if"],
+    "correct": 2
+  },
+  {
+    "question": "Which operator has highest precedence?",
+    "options": ["*", "+", "=", "&&"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword prevents variable modification?",
+    "options": ["static", "volatile", "const", "register"],
+    "correct": 2
+  },
+  {
+    "question": "Which function finds string length?",
+    "options": ["strsize()", "strlen()", "length()", "strcount()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to handle multiple choices?",
+    "options": ["if", "else", "switch", "case"],
+    "correct": 2
+  },
+  {
+    "question": "Which operator is unary?",
+    "options": ["+", "*", "++", "=="],
+    "correct": 2
+  },
+  {
+    "question": "Which data type stores large integers?",
+    "options": ["int", "short", "long", "char"],
+    "correct": 2
+  },
+  {
+    "question": "Which function copies strings?",
+    "options": ["strcmp()", "strcpy()", "strlen()", "strcat()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword makes variable global?",
+    "options": ["global", "static", "extern", "public"],
+    "correct": 2
+  },
+  {
+    "question": "Which operator is used to access structure members?",
+    "options": [".", "->", "*", "&"],
+    "correct": 0
+  },
+  {
+    "question": "Which operator is used with pointers to structures?",
+    "options": [".", "->", "&", "%"],
+    "correct": 1
+  },
+  {
+    "question": "Which function ends the program?",
+    "options": ["stop()", "exit()", "end()", "close()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define enumeration?",
+    "options": ["enum", "define", "struct", "union"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to define union?",
+    "options": ["union", "struct", "enum", "group"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to jump to a label?",
+    "options": ["jump", "goto", "break", "continue"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for logical OR?",
+    "options": ["|", "||", "&", "&&"],
+    "correct": 1
+  },
+  {
+    "question": "Which header file is needed for string functions?",
+    "options": ["<string.h>", "<stdio.h>", "<stdlib.h>", "<math.h>"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword stores variable in CPU register?",
+    "options": ["register", "static", "volatile", "auto"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is default storage class?",
+    "options": ["auto", "static", "extern", "register"],
+    "correct": 0
+  }
+]
+,
+  "Java": [
+  {
+    "question": "Which keyword is used to create an object in Java?",
+    "options": ["class", "new", "object", "create"],
+    "correct": 1
+  },
+  {
+    "question": "Which method is the entry point of a Java program?",
+    "options": ["start()", "run()", "main()", "init()"],
+    "correct": 2
+  },
+  {
+    "question": "Which data type is used to store true or false values?",
+    "options": ["int", "boolean", "char", "float"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "inherits", "extends", "super"],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following is not a primitive data type?",
+    "options": ["int", "String", "double", "char"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for object reference comparison?",
+    "options": ["equals()", "==", "!=", "="],
+    "correct": 1
+  },
+  {
+    "question": "Which package is automatically imported in Java?",
+    "options": ["java.io", "java.lang", "java.util", "java.net"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to prevent inheritance?",
+    "options": ["static", "final", "private", "abstract"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define an interface?",
+    "options": ["interface", "implements", "abstract", "extends"],
+    "correct": 0
+  },
+  {
+    "question": "Which exception is thrown when dividing by zero?",
+    "options": ["IOException", "NullPointerException", "ArithmeticException", "NumberFormatException"],
+    "correct": 2
+  },
+  {
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to handle exceptions?",
+    "options": ["catch", "throw", "try", "error"],
+    "correct": 2
+  },
+  {
+    "question": "Which access modifier makes members visible everywhere?",
+    "options": ["protected", "private", "default", "public"],
+    "correct": 3
+  },
+  {
+    "question": "Which class is the parent of all classes in Java?",
+    "options": ["Main", "System", "Object", "Class"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to call parent class constructor?",
+    "options": ["this", "parent", "super", "base"],
+    "correct": 2
+  },
+  {
+    "question": "Which collection does not allow duplicate elements?",
+    "options": ["List", "ArrayList", "Set", "Queue"],
+    "correct": 2
+  },
+  {
+    "question": "Which method is used to find length of a string?",
+    "options": ["size()", "length()", "count()", "getLength()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to create a thread?",
+    "options": ["thread", "extends", "implements", "run"],
+    "correct": 1
+  },
+  {
+    "question": "Which interface is used to sort collections?",
+    "options": ["Comparable", "Comparator", "Iterable", "Collection"],
+    "correct": 0
+  },
+  {
+    "question": "Which block is always executed whether exception occurs or not?",
+    "options": ["catch", "throw", "final", "finally"],
+    "correct": 3
+  },
+  {
+    "question": "Which keyword is used to define a constant?",
+    "options": ["const", "static", "final", "immutable"],
+    "correct": 2
+  },
+  {
+    "question": "Which stream is used for reading binary data?",
+    "options": ["FileReader", "BufferedReader", "InputStream", "Writer"],
+    "correct": 2
+  },
+  {
+    "question": "Which Java feature supports multiple inheritance?",
+    "options": ["Classes", "Interfaces", "Objects", "Methods"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to stop a loop?",
+    "options": ["exit", "stop", "break", "return"],
+    "correct": 2
+  },
+  {
+    "question": "Which class is used for taking input from user?",
+    "options": ["Input", "Scanner", "Reader", "System"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used to create objects?",
+    "options": ["malloc", "new", "create", "alloc"],
+    "correct": 1
+  },
+  {
+    "question": "Which collection follows FIFO order?",
+    "options": ["Stack", "Set", "Queue", "List"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to define an abstract method?",
+    "options": ["virtual", "abstract", "static", "final"],
+    "correct": 1
+  },
+  {
+    "question": "Which method converts string to integer?",
+    "options": ["parseInt()", "toInt()", "value()", "convert()"],
+    "correct": 0
+  },
+  {
+    "question": "Which exception is checked at compile time?",
+    "options": ["RuntimeException", "NullPointerException", "IOException", "ArithmeticException"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to refer current object?",
+    "options": ["current", "self", "this", "object"],
+    "correct": 2
+  },
+  {
+    "question": "Which access modifier is default?",
+    "options": ["public", "private", "protected", "no keyword"],
+    "correct": 3
+  },
+  {
+    "question": "Which keyword is used to throw an exception?",
+    "options": ["throws", "catch", "throw", "exception"],
+    "correct": 2
+  },
+  {
+    "question": "Which class is used to build strings dynamically?",
+    "options": ["String", "StringBuffer", "CharSequence", "Text"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword makes a method non-overridable?",
+    "options": ["static", "private", "final", "protected"],
+    "correct": 2
+  },
+  {
+    "question": "Which Java feature provides runtime polymorphism?",
+    "options": ["Method overloading", "Method overriding", "Encapsulation", "Abstraction"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to import packages?",
+    "options": ["include", "using", "import", "package"],
+    "correct": 2
+  },
+  {
+    "question": "Which collection allows key-value pairs?",
+    "options": ["List", "Set", "Map", "Queue"],
+    "correct": 2
+  },
+  {
+    "question": "Which method starts a thread?",
+    "options": ["run()", "start()", "init()", "execute()"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for concatenation?",
+    "options": ["*", "+", "&", "."],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define a package?",
+    "options": ["import", "library", "package", "namespace"],
+    "correct": 2
+  },
+  {
+    "question": "Which concept hides implementation details?",
+    "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
+    "correct": 3
+  },
+  {
+    "question": "Which method compares string values?",
+    "options": ["==", "compare()", "equals()", "match()"],
+    "correct": 2
+  },
+  {
+    "question": "Which type of memory is used for objects?",
+    "options": ["Stack", "Register", "Heap", "Cache"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to declare an array?",
+    "options": ["array", "new", "[]", "Array"],
+    "correct": 2
+  },
+  {
+    "question": "Which interface allows iteration?",
+    "options": ["Iterator", "Iterable", "Collection", "List"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to check inheritance?",
+    "options": ["is", "instanceof", "typeof", "check"],
+    "correct": 1
+  },
+  {
+    "question": "Which class is used to handle dates?",
+    "options": ["Date", "Calendar", "Time", "Clock"],
+    "correct": 0
+  }
+]
+,
+  "Python":[
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["function", "def", "fun", "define"],
+    "correct": 1
+  },
+  {
+    "question": "Which data type is used to store decimal values?",
+    "options": ["int", "float", "str", "bool"],
+    "correct": 1
+  },
+  {
+    "question": "Which symbol is used for comments in Python?",
+    "options": ["//", "#", "/* */", "<!-- -->"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to create a class in Python?",
+    "options": ["object", "class", "define", "struct"],
+    "correct": 1
+  },
+  {
+    "question": "Which function is used to take input from the user?",
+    "options": ["read()", "scan()", "input()", "get()"],
+    "correct": 2
+  },
+  {
+    "question": "Which operator is used for exponentiation?",
+    "options": ["^", "**", "//", "%"],
+    "correct": 1
+  },
+  {
+    "question": "Which data type is immutable?",
+    "options": ["list", "set", "dictionary", "tuple"],
+    "correct": 3
+  },
+  {
+    "question": "Which keyword is used to handle exceptions?",
+    "options": ["catch", "handle", "try", "error"],
+    "correct": 2
+  },
+  {
+    "question": "Which loop is used to iterate over a sequence?",
+    "options": ["while", "do-while", "repeat", "for"],
+    "correct": 3
+  },
+  {
+    "question": "Which function returns the length of a list?",
+    "options": ["count()", "size()", "length()", "len()"],
+    "correct": 3
+  },
+  {
+    "question": "Which keyword is used to define a lambda function?",
+    "options": ["def", "lambda", "func", "inline"],
+    "correct": 1
+  },
+  {
+    "question": "Which data type is used to store key-value pairs?",
+    "options": ["list", "tuple", "set", "dict"],
+    "correct": 3
+  },
+  {
+    "question": "Which function converts string to integer?",
+    "options": ["str()", "int()", "float()", "parseInt()"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for floor division?",
+    "options": ["/", "//", "%", "**"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to create a virtual environment?",
+    "options": ["env", "venv", "virtual", "activate"],
+    "correct": 1
+  },
+  {
+    "question": "Which module is used for mathematical functions?",
+    "options": ["math", "random", "statistics", "sys"],
+    "correct": 0
+  },
+  {
+    "question": "Which function is used to open a file?",
+    "options": ["file()", "open()", "read()", "load()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define inheritance?",
+    "options": ["extends", "inherits", "super", "class"],
+    "correct": 3
+  },
+  {
+    "question": "Which data type supports ordered collection?",
+    "options": ["set", "dict", "list", "None"],
+    "correct": 2
+  },
+  {
+    "question": "Which statement is used to exit a loop?",
+    "options": ["exit", "stop", "break", "return"],
+    "correct": 2
+  },
+  {
+    "question": "Which function checks the type of a variable?",
+    "options": ["check()", "typeof()", "type()", "kind()"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to import a module?",
+    "options": ["include", "using", "import", "require"],
+    "correct": 2
+  },
+  {
+    "question": "Which function is used to sort a list?",
+    "options": ["order()", "sort()", "arrange()", "sortedlist()"],
+    "correct": 1
+  },
+  {
+    "question": "Which data type allows duplicate values?",
+    "options": ["set", "dict", "list", "tuple"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to delete a variable?",
+    "options": ["remove", "del", "delete", "clear"],
+    "correct": 1
+  },
+  {
+    "question": "Which function converts integer to string?",
+    "options": ["int()", "str()", "char()", "string()"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for logical AND?",
+    "options": ["&&", "&", "and", "AND"],
+    "correct": 2
+  },
+  {
+    "question": "Which function generates a range of numbers?",
+    "options": ["list()", "range()", "numbers()", "seq()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define a generator?",
+    "options": ["yield", "return", "gen", "lambda"],
+    "correct": 0
+  },
+  {
+    "question": "Which exception occurs when dividing by zero?",
+    "options": ["ValueError", "ZeroDivisionError", "TypeError", "ArithmeticError"],
+    "correct": 1
+  },
+  {
+    "question": "Which data type represents True or False?",
+    "options": ["int", "bool", "str", "None"],
+    "correct": 1
+  },
+  {
+    "question": "Which method adds an element to a list?",
+    "options": ["add()", "push()", "append()", "insertEnd()"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to define a constant (by convention)?",
+    "options": ["const", "final", "UPPERCASE", "static"],
+    "correct": 2
+  },
+  {
+    "question": "Which module is used for random numbers?",
+    "options": ["math", "sys", "random", "os"],
+    "correct": 2
+  },
+  {
+    "question": "Which statement is used to skip current loop iteration?",
+    "options": ["skip", "pass", "continue", "next"],
+    "correct": 2
+  },
+  {
+    "question": "Which function returns absolute value?",
+    "options": ["abs()", "fabs()", "absolute()", "mod()"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to define an anonymous function?",
+    "options": ["def", "lambda", "inline", "anon"],
+    "correct": 1
+  },
+  {
+    "question": "Which data type is unordered?",
+    "options": ["list", "tuple", "set", "string"],
+    "correct": 2
+  },
+  {
+    "question": "Which function checks membership?",
+    "options": ["has()", "in", "contains()", "member()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to handle multiple exceptions?",
+    "options": ["multi", "except", "try", "catch"],
+    "correct": 1
+  },
+  {
+    "question": "Which function converts list to set?",
+    "options": ["set()", "list()", "tuple()", "dict()"],
+    "correct": 0
+  },
+  {
+    "question": "Which statement is used to do nothing?",
+    "options": ["pass", "continue", "null", "skip"],
+    "correct": 0
+  },
+  {
+    "question": "Which operator checks identity?",
+    "options": ["==", "=", "is", "equals"],
+    "correct": 2
+  },
+  {
+    "question": "Which module is used to work with operating system?",
+    "options": ["sys", "path", "os", "platform"],
+    "correct": 2
+  },
+  {
+    "question": "Which function reads entire file content?",
+    "options": ["read()", "readline()", "readlines()", "load()"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to declare global variable?",
+    "options": ["global", "extern", "static", "var"],
+    "correct": 0
+  },
+  {
+    "question": "Which data type is mutable?",
+    "options": ["tuple", "string", "int", "list"],
+    "correct": 3
+  },
+  {
+    "question": "Which method removes an item from a list?",
+    "options": ["delete()", "remove()", "pop()", "discard()"],
+    "correct": 2
+  }
+]
+,
+  "C++": [
+  {
+    "question": "Which feature of C++ allows the same function name with different parameters?",
+    "options": ["Inheritance", "Encapsulation", "Function Overloading", "Abstraction"],
+    "correct": 2
+  },
+  {
+    "question": "Which operator is used to allocate memory dynamically in C++?",
+    "options": ["malloc", "alloc", "new", "create"],
+    "correct": 2
+  },
+  {
+    "question": "Which concept allows defining multiple functions with the same name in different classes?",
+    "options": ["Overriding", "Overloading", "Templates", "Polymorphism"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to inherit a class in C++?",
+    "options": ["extends", "inherits", "implements", ":"],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following is not a C++ access specifier?",
+    "options": ["public", "private", "protected", "internal"],
+    "correct": 3
+  },
+  {
+    "question": "What is the size of an empty class in C++?",
+    "options": ["0 bytes", "1 byte", "2 bytes", "Depends on compiler"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to prevent method overriding?",
+    "options": ["static", "sealed", "final", "const"],
+    "correct": 2
+  },
+  {
+    "question": "Which concept is achieved using virtual functions?",
+    "options": ["Compile-time polymorphism", "Encapsulation", "Runtime polymorphism", "Abstraction"],
+    "correct": 2
+  },
+  {
+    "question": "Which operator cannot be overloaded in C++?",
+    "options": ["+", "[]", "::", "=="],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to define a constant variable?",
+    "options": ["final", "static", "const", "define"],
+    "correct": 2
+  },
+  {
+    "question": "Which constructor is called when an object is created?",
+    "options": ["Copy constructor", "Default constructor", "Parameterized constructor", "Destructor"],
+    "correct": 1
+  },
+  {
+    "question": "Which feature allows wrapping data and functions together?",
+    "options": ["Polymorphism", "Encapsulation", "Inheritance", "Abstraction"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to deallocate memory?",
+    "options": ["delete", "free", "remove", "destroy"],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following supports multiple inheritance?",
+    "options": ["C", "Java", "Python", "C++"],
+    "correct": 3
+  },
+  {
+    "question": "Which function is automatically called when an object goes out of scope?",
+    "options": ["Constructor", "Destructor", "Delete", "Finalize"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword refers to the current object?",
+    "options": ["this", "self", "current", "object"],
+    "correct": 0
+  },
+  {
+    "question": "Which STL container stores unique elements?",
+    "options": ["vector", "list", "set", "array"],
+    "correct": 2
+  },
+  {
+    "question": "Which header file is required for input and output?",
+    "options": ["<stdio.h>", "<conio.h>", "<iostream>", "<fstream>"],
+    "correct": 2
+  },
+  {
+    "question": "Which operator is used to access class members via pointer?",
+    "options": [".", "::", "->", "*"],
+    "correct": 2
+  },
+  {
+    "question": "Which type of inheritance causes ambiguity?",
+    "options": ["Single", "Multilevel", "Hierarchical", "Multiple"],
+    "correct": 3
+  },
+  {
+    "question": "Which keyword is used to handle exceptions?",
+    "options": ["try", "catch", "throw", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which feature improves code reusability?",
+    "options": ["Encapsulation", "Inheritance", "Abstraction", "Polymorphism"],
+    "correct": 1
+  },
+  {
+    "question": "Which container provides fast random access?",
+    "options": ["list", "map", "vector", "set"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to create a template?",
+    "options": ["generic", "define", "template", "typename"],
+    "correct": 2
+  },
+  {
+    "question": "Which C++ feature resolves diamond problem?",
+    "options": ["Virtual function", "Abstract class", "Virtual inheritance", "Polymorphism"],
+    "correct": 2
+  },
+  {
+    "question": "Which function is used to get size of STL container?",
+    "options": ["length()", "count()", "size()", "capacity()"],
+    "correct": 2
+  },
+  {
+    "question": "Which operator is used for scope resolution?",
+    "options": [":", "::", ".", "->"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to stop inheritance?",
+    "options": ["final", "sealed", "private", "const"],
+    "correct": 0
+  },
+  {
+    "question": "Which type of polymorphism is achieved using templates?",
+    "options": ["Runtime", "Dynamic", "Compile-time", "Hybrid"],
+    "correct": 2
+  },
+  {
+    "question": "Which container stores key-value pairs?",
+    "options": ["vector", "map", "set", "list"],
+    "correct": 1
+  },
+  {
+    "question": "Which function is used to sort STL containers?",
+    "options": ["order()", "sort()", "arrange()", "sorted()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword ensures a function does not modify data?",
+    "options": ["static", "final", "const", "mutable"],
+    "correct": 2
+  },
+  {
+    "question": "Which C++ feature supports generic programming?",
+    "options": ["Classes", "Inheritance", "Templates", "Namespaces"],
+    "correct": 2
+  },
+  {
+    "question": "Which STL container follows LIFO?",
+    "options": ["queue", "stack", "deque", "vector"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define namespace?",
+    "options": ["space", "package", "namespace", "scope"],
+    "correct": 2
+  },
+  {
+    "question": "Which function is used to add element at end of vector?",
+    "options": ["add()", "insert()", "push_back()", "append()"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword allows function to be overridden?",
+    "options": ["virtual", "override", "dynamic", "abstract"],
+    "correct": 0
+  },
+  {
+    "question": "Which container allows duplicate keys?",
+    "options": ["map", "set", "multimap", "unordered_set"],
+    "correct": 2
+  },
+  {
+    "question": "Which C++ concept hides implementation details?",
+    "options": ["Polymorphism", "Encapsulation", "Inheritance", "Templates"],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for dynamic casting?",
+    "options": ["static_cast", "reinterpret_cast", "dynamic_cast", "const_cast"],
+    "correct": 2
+  },
+  {
+    "question": "Which feature improves program security?",
+    "options": ["Inheritance", "Encapsulation", "Polymorphism", "Templates"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define abstract class?",
+    "options": ["abstract", "virtual", "interface", "No keyword"],
+    "correct": 3
+  },
+  {
+    "question": "Which C++ container is implemented using balanced BST?",
+    "options": ["vector", "unordered_map", "map", "array"],
+    "correct": 2
+  },
+  {
+    "question": "Which function flushes output buffer?",
+    "options": ["flush()", "endl", "clear()", "sync()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to catch exceptions?",
+    "options": ["handle", "catch", "throw", "try"],
+    "correct": 1
+  },
+  {
+    "question": "Which container gives constant time insertion at end?",
+    "options": ["list", "vector", "map", "set"],
+    "correct": 1
+  },
+  {
+    "question": "Which C++ feature allows code optimization at compile time?",
+    "options": ["Virtual functions", "Templates", "Dynamic binding", "Exceptions"],
+    "correct": 1
+  }
+]
+,
+  "Python OOPs": [
+  {
+    "question": "Which keyword is used to create a class in Python?",
+    "options": ["struct", "define", "class", "object"],
+    "correct": 2
+  },
+  {
+    "question": "Which method is called automatically when an object is created?",
+    "options": ["__init__", "__create__", "__new__", "__start__"],
+    "correct": 0
+  },
+  {
+    "question": "Which keyword is used to refer to the current object?",
+    "options": ["this", "self", "current", "object"],
+    "correct": 1
+  },
+  {
+    "question": "Which concept allows using the same method name with different implementations?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "correct": 2
+  },
+  {
+    "question": "Which type of inheritance is supported in Python?",
+    "options": ["Single only", "Multiple", "Multilevel only", "Hybrid not supported"],
+    "correct": 1
+  },
+  {
+    "question": "Which decorator is used to define a class method?",
+    "options": ["@classmethod", "@staticmethod", "@property", "@method"],
+    "correct": 0
+  },
+  {
+    "question": "Which decorator is used to define a static method?",
+    "options": ["@static", "@staticmethod", "@classmethod", "@function"],
+    "correct": 1
+  },
+  {
+    "question": "Which concept hides internal implementation details?",
+    "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+    "correct": 3
+  },
+  {
+    "question": "Which function returns the parent class of an object?",
+    "options": ["parent()", "super()", "base()", "inherit()"],
+    "correct": 1
+  },
+  {
+    "question": "Which magic method is used for string representation of an object?",
+    "options": ["__repr__", "__str__", "__print__", "__string__"],
+    "correct": 1
+  },
+  {
+    "question": "Which access specifier is not explicitly supported in Python?",
+    "options": ["Public", "Private", "Protected", "Package"],
+    "correct": 3
+  },
+  {
+    "question": "Which symbol is used to indicate a private variable?",
+    "options": ["#", "__", "@", "$"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to delete an object?",
+    "options": ["remove", "delete", "del", "destroy"],
+    "correct": 2
+  },
+  {
+    "question": "Which method is used to check class inheritance?",
+    "options": ["issubclass()", "isinstance()", "inherits()", "checkclass()"],
+    "correct": 0
+  },
+  {
+    "question": "Which method checks object instance?",
+    "options": ["issubclass()", "instanceof()", "isinstance()", "typeof()"],
+    "correct": 2
+  },
+  {
+    "question": "Which concept binds data and methods together?",
+    "options": ["Inheritance", "Encapsulation", "Abstraction", "Polymorphism"],
+    "correct": 1
+  },
+  {
+    "question": "Which method is used to override parent method?",
+    "options": ["override", "super", "same method name", "extends"],
+    "correct": 2
+  },
+  {
+    "question": "Which decorator converts method into property?",
+    "options": ["@getter", "@property", "@attribute", "@prop"],
+    "correct": 1
+  },
+  {
+    "question": "Which method is called when object is destroyed?",
+    "options": ["__delete__", "__destroy__", "__del__", "__remove__"],
+    "correct": 2
+  },
+  {
+    "question": "Which concept supports code reusability?",
+    "options": ["Abstraction", "Inheritance", "Encapsulation", "Polymorphism"],
+    "correct": 1
+  },
+  {
+    "question": "Which feature allows a subclass to provide specific implementation?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "correct": 2
+  },
+  {
+    "question": "Which module is used to create abstract base classes?",
+    "options": ["abc", "abstract", "interface", "base"],
+    "correct": 0
+  },
+  {
+    "question": "Which decorator is used to define abstract methods?",
+    "options": ["@abstract", "@abstractmethod", "@virtual", "@override"],
+    "correct": 1
+  },
+  {
+    "question": "Which function returns all attributes of an object?",
+    "options": ["vars()", "dir()", "dict()", "attrs()"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to check object identity?",
+    "options": ["==", "equals", "is", "same"],
+    "correct": 2
+  },
+  {
+    "question": "Which concept is achieved using interfaces (ABCs)?",
+    "options": ["Encapsulation", "Inheritance", "Abstraction", "Polymorphism"],
+    "correct": 2
+  },
+  {
+    "question": "Which method is used to access parent class method?",
+    "options": ["parent()", "super()", "base()", "inherit()"],
+    "correct": 1
+  },
+  {
+    "question": "Which class attribute is shared among all objects?",
+    "options": ["Instance variable", "Local variable", "Class variable", "Private variable"],
+    "correct": 2
+  },
+  {
+    "question": "Which OOP principle allows multiple forms?",
+    "options": ["Inheritance", "Abstraction", "Polymorphism", "Encapsulation"],
+    "correct": 2
+  },
+  {
+    "question": "Which method is used to customize object creation?",
+    "options": ["__init__", "__create__", "__new__", "__build__"],
+    "correct": 2
+  },
+  {
+    "question": "Which concept restricts direct access to data?",
+    "options": ["Inheritance", "Abstraction", "Encapsulation", "Polymorphism"],
+    "correct": 2
+  },
+  {
+    "question": "Which function checks attribute existence?",
+    "options": ["hasattr()", "getattr()", "setattr()", "delattr()"],
+    "correct": 0
+  },
+  {
+    "question": "Which function is used to get attribute value?",
+    "options": ["get()", "getattr()", "fetch()", "readattr()"],
+    "correct": 1
+  },
+  {
+    "question": "Which function sets attribute value dynamically?",
+    "options": ["set()", "assign()", "setattr()", "putattr()"],
+    "correct": 2
+  },
+  {
+    "question": "Which function deletes an attribute?",
+    "options": ["del()", "delattr()", "remove()", "clear()"],
+    "correct": 1
+  },
+  {
+    "question": "Which type of method takes class as first argument?",
+    "options": ["Instance method", "Static method", "Class method", "Abstract method"],
+    "correct": 2
+  },
+  {
+    "question": "Which type of method takes no implicit argument?",
+    "options": ["Instance method", "Class method", "Static method", "Abstract method"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to define private members by convention?",
+    "options": ["__", "_", "private", "hidden"],
+    "correct": 0
+  },
+  {
+    "question": "Which magic method compares objects for equality?",
+    "options": ["__eq__", "__cmp__", "__same__", "__compare__"],
+    "correct": 0
+  },
+  {
+    "question": "Which magic method supports operator overloading?",
+    "options": ["__add__", "__sum__", "__plus__", "__append__"],
+    "correct": 0
+  },
+  {
+    "question": "Which OOP concept is not directly enforced in Python?",
+    "options": ["Encapsulation", "Inheritance", "Abstraction", "Access control"],
+    "correct": 3
+  },
+  {
+    "question": "Which function returns method resolution order?",
+    "options": ["mro()", "__mro__", "order()", "resolve()"],
+    "correct": 1
+  },
+  {
+    "question": "Which inheritance uses more than one parent class?",
+    "options": ["Single", "Multilevel", "Multiple", "Hierarchical"],
+    "correct": 2
+  },
+  {
+    "question": "Which feature allows method behavior change at runtime?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "correct": 2
+  },
+  {
+    "question": "Which method is used to define custom string representation?",
+    "options": ["__repr__", "__str__", "__print__", "__format__"],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define abstract base class?",
+    "options": ["abstract", "ABC", "interface", "base"],
+    "correct": 1
+  },
+  {
+    "question": "Which module supports multiple inheritance control?",
+    "options": ["abc", "typing", "inspect", "sys"],
+    "correct": 0
+  }
+]
+,
+  "Data Structures": [
+  {
+    "question": "Which data structure follows FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure follows LIFO principle?",
+    "options": ["Queue", "Array", "Stack", "Linked List"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure allows random access?",
+    "options": ["Linked List", "Array", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used for BFS traversal?",
+    "options": ["Stack", "Queue", "Array", "Heap"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used for DFS traversal?",
+    "options": ["Queue", "Array", "Stack", "Heap"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure stores elements in key-value pairs?",
+    "options": ["Array", "List", "Map", "Stack"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is best for insertion and deletion at both ends?",
+    "options": ["Array", "Deque", "Stack", "Tree"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to implement recursion?",
+    "options": ["Queue", "Stack", "Array", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure uses nodes with pointers?",
+    "options": ["Array", "Linked List", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is non-linear?",
+    "options": ["Array", "Stack", "Queue", "Tree"],
+    "correct": 3
+  },
+  {
+    "question": "Which traversal is used in binary search tree to get sorted output?",
+    "options": ["Preorder", "Postorder", "Inorder", "Level order"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to find shortest path in graph?",
+    "options": ["Stack", "Queue", "Priority Queue", "Array"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure supports fast search, insert, and delete?",
+    "options": ["Array", "Linked List", "Hash Table", "Stack"],
+    "correct": 2
+  },
+  {
+    "question": "Which tree is a complete binary tree?",
+    "options": ["AVL Tree", "Heap", "Binary Search Tree", "Red-Black Tree"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used in scheduling algorithms?",
+    "options": ["Stack", "Queue", "Graph", "Tree"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure uses hashing technique?",
+    "options": ["Array", "Linked List", "Hash Table", "Tree"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to implement undo operation?",
+    "options": ["Queue", "Stack", "Array", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which traversal visits root first?",
+    "options": ["Inorder", "Postorder", "Preorder", "Level order"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to detect cycle in graph?",
+    "options": ["Stack", "Queue", "DFS", "Disjoint Set"],
+    "correct": 3
+  },
+  {
+    "question": "Which data structure is used in topological sorting?",
+    "options": ["Queue", "Stack", "Graph", "Tree"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is best for implementing LRU cache?",
+    "options": ["Array", "Linked List + HashMap", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure supports dynamic size?",
+    "options": ["Array", "Linked List", "Matrix", "String"],
+    "correct": 1
+  },
+  {
+    "question": "Which tree is height-balanced?",
+    "options": ["BST", "Heap", "AVL Tree", "Trie"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to store hierarchical data?",
+    "options": ["Array", "Graph", "Tree", "Queue"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to represent social networks?",
+    "options": ["Tree", "Array", "Graph", "Stack"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm uses divide and conquer technique?",
+    "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Linear Search"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to implement priority scheduling?",
+    "options": ["Queue", "Stack", "Priority Queue", "Array"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used for fast retrieval?",
+    "options": ["Stack", "Queue", "Hash Table", "Tree"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure uses adjacency list?",
+    "options": ["Tree", "Array", "Graph", "Stack"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used in Dijkstra's algorithm?",
+    "options": ["Stack", "Queue", "Priority Queue", "Array"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure stores unique elements?",
+    "options": ["Array", "List", "Set", "Queue"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure allows insertion at middle efficiently?",
+    "options": ["Array", "Linked List", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used in expression evaluation?",
+    "options": ["Queue", "Stack", "Tree", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which traversal uses queue internally?",
+    "options": ["DFS", "Inorder", "BFS", "Postorder"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to compress data?",
+    "options": ["AVL Tree", "Heap", "Huffman Tree", "Trie"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to store prefixes?",
+    "options": ["Graph", "Trie", "Heap", "BST"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to check balanced parentheses?",
+    "options": ["Queue", "Stack", "Array", "Tree"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used in union-find algorithm?",
+    "options": ["Graph", "Tree", "Disjoint Set", "Stack"],
+    "correct": 2
+  },
+  {
+    "question": "Which tree traversal gives level-wise output?",
+    "options": ["Inorder", "Preorder", "Postorder", "Level order"],
+    "correct": 3
+  },
+  {
+    "question": "Which data structure is used for indexing in databases?",
+    "options": ["Heap", "B-Tree", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure has amortized O(1) insertion at end?",
+    "options": ["Linked List", "Dynamic Array", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to implement recursion stack?",
+    "options": ["Queue", "Stack", "Array", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to find median in stream?",
+    "options": ["Stack", "Queue", "Two Heaps", "Array"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used in autocomplete systems?",
+    "options": ["Graph", "Trie", "Heap", "BST"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is best for range queries?",
+    "options": ["Array", "Segment Tree", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used for memory management?",
+    "options": ["Queue", "Stack", "Heap", "Tree"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used in call stack?",
+    "options": ["Queue", "Stack", "Array", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure supports O(1) average search time?",
+    "options": ["BST", "Array", "Hash Table", "Linked List"],
+    "correct": 2
+  }
+]
+,
+  "Advanced Data Structures": [
+  {
+    "question": "Which data structure is used to efficiently answer range minimum queries?",
+    "options": ["Binary Indexed Tree", "Segment Tree", "Hash Table", "Heap"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure supports both union and find operations efficiently?",
+    "options": ["Graph", "Disjoint Set (Union-Find)", "Heap", "Trie"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to store strings for fast prefix searching?",
+    "options": ["BST", "Trie", "Heap", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which balanced tree guarantees O(log n) time for search, insert, and delete?",
+    "options": ["Binary Tree", "AVL Tree", "Heap", "Trie"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is mainly used in database indexing?",
+    "options": ["AVL Tree", "B-Tree", "Heap", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to implement LRU Cache?",
+    "options": ["Queue", "Stack", "HashMap + Doubly Linked List", "Heap"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is best suited for implementing priority scheduling?",
+    "options": ["Queue", "Stack", "Priority Queue", "Linked List"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used to find median in a running stream of numbers?",
+    "options": ["Array", "Two Heaps", "BST", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used in Huffman Coding?",
+    "options": ["BST", "Heap", "Trie", "Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which advanced data structure supports range sum queries efficiently?",
+    "options": ["Array", "Binary Indexed Tree", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used for auto-complete functionality?",
+    "options": ["Graph", "Trie", "Heap", "AVL Tree"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used in garbage collection algorithms?",
+    "options": ["Graph", "Tree", "Stack", "Queue"],
+    "correct": 0
+  },
+  {
+    "question": "Which data structure is used to detect cycles in a graph efficiently?",
+    "options": ["Stack", "Queue", "Disjoint Set", "Heap"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used in Dijkstra’s shortest path algorithm?",
+    "options": ["Queue", "Stack", "Priority Queue", "Array"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is optimized for ordered data with fast search?",
+    "options": ["Hash Table", "Red-Black Tree", "Array", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to manage memory allocation?",
+    "options": ["Queue", "Stack", "Heap", "Graph"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure is used in topological sorting of a DAG?",
+    "options": ["Tree", "Graph", "Queue", "Heap"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure supports persistent versions of itself?",
+    "options": ["Persistent Segment Tree", "Heap", "Queue", "Array"],
+    "correct": 0
+  },
+  {
+    "question": "Which data structure is used to efficiently store sparse graphs?",
+    "options": ["Adjacency Matrix", "Adjacency List", "Heap", "Trie"],
+    "correct": 1
+  },
+  {
+    "question": "Which advanced tree is used in text editors for efficient string operations?",
+    "options": ["AVL Tree", "Rope", "Trie", "Heap"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure allows logarithmic time split and merge operations?",
+    "options": ["Array", "Treap", "Queue", "Stack"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to solve range queries in competitive programming?",
+    "options": ["Queue", "Segment Tree", "Stack", "Linked List"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used in A* pathfinding algorithm?",
+    "options": ["Queue", "Stack", "Priority Queue", "Array"],
+    "correct": 2
+  },
+  {
+    "question": "Which data structure supports efficient interval queries?",
+    "options": ["Interval Tree", "Heap", "Queue", "Array"],
+    "correct": 0
+  },
+  {
+    "question": "Which data structure is commonly used for caching in systems design interviews?",
+    "options": ["Stack", "Queue", "LRU Cache", "Tree"],
+    "correct": 2
+  }
+]
+,
+  "DAA": [
+  {
+    "question": "Which algorithm design technique divides a problem into smaller subproblems and solves them recursively?",
+    "options": ["Greedy", "Dynamic Programming", "Divide and Conquer", "Backtracking"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm design technique builds the solution step by step choosing the locally optimal choice?",
+    "options": ["Dynamic Programming", "Greedy", "Backtracking", "Branch and Bound"],
+    "correct": 1
+  },
+  {
+    "question": "Which technique stores results of overlapping subproblems to avoid recomputation?",
+    "options": ["Greedy", "Divide and Conquer", "Dynamic Programming", "Recursion"],
+    "correct": 2
+  },
+  {
+    "question": "What is the worst-case time complexity of Binary Search?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "correct": 1
+  },
+  {
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Selection Sort"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm is used to find the shortest path in a weighted graph with non-negative weights?",
+    "options": ["DFS", "BFS", "Dijkstra’s Algorithm", "Prim’s Algorithm"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm is used to find the Minimum Spanning Tree?",
+    "options": ["Dijkstra’s", "Kruskal’s", "Bellman-Ford", "Floyd-Warshall"],
+    "correct": 1
+  },
+  {
+    "question": "What is the time complexity of Merge Sort?",
+    "options": ["O(n^2)", "O(n log n)", "O(log n)", "O(n)"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm uses backtracking technique?",
+    "options": ["Binary Search", "N-Queens", "Merge Sort", "Heap Sort"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm design technique is used in the 0/1 Knapsack problem?",
+    "options": ["Greedy", "Divide and Conquer", "Dynamic Programming", "Backtracking"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm has exponential time complexity?",
+    "options": ["Linear Search", "Binary Search", "Fibonacci (recursive)", "Merge Sort"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm is used to detect negative weight cycles?",
+    "options": ["Dijkstra’s", "Prim’s", "Bellman-Ford", "Kruskal’s"],
+    "correct": 2
+  },
+  {
+    "question": "What is the best-case time complexity of Quick Sort?",
+    "options": ["O(n^2)", "O(n log n)", "O(n)", "O(log n)"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm design technique is used in Prim’s algorithm?",
+    "options": ["Divide and Conquer", "Greedy", "Dynamic Programming", "Backtracking"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm is used for all-pairs shortest path?",
+    "options": ["Dijkstra’s", "Bellman-Ford", "Floyd-Warshall", "Prim’s"],
+    "correct": 2
+  },
+  {
+    "question": "Which problem is solved using Branch and Bound technique?",
+    "options": ["Binary Search", "Travelling Salesman Problem", "Merge Sort", "Heap Sort"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm is stable among the following?",
+    "options": ["Quick Sort", "Heap Sort", "Merge Sort", "Selection Sort"],
+    "correct": 2
+  },
+  {
+    "question": "What is the time complexity of BFS?",
+    "options": ["O(V)", "O(E)", "O(V + E)", "O(V log E)"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm is used in job scheduling to minimize completion time?",
+    "options": ["Greedy", "Dynamic Programming", "Backtracking", "Divide and Conquer"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm design technique explores all possibilities and backtracks?",
+    "options": ["Greedy", "Dynamic Programming", "Backtracking", "Divide and Conquer"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm is used to find strongly connected components?",
+    "options": ["Dijkstra’s", "Kosaraju’s", "Prim’s", "Kruskal’s"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm has O(n log n) worst-case complexity?",
+    "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Insertion Sort"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm uses dynamic programming for sequence alignment?",
+    "options": ["KMP", "Longest Common Subsequence", "Binary Search", "DFS"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm is used for pattern matching?",
+    "options": ["DFS", "BFS", "KMP Algorithm", "Prim’s Algorithm"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm design paradigm is used in Huffman Coding?",
+    "options": ["Dynamic Programming", "Greedy", "Backtracking", "Divide and Conquer"],
+    "correct": 1
+  }
+]
+,
+  "DBMS":[
+  {
+    "question": "What is the primary key in a database?",
+    "options": ["A key that can have duplicate values", "A key that uniquely identifies a record", "A key used for sorting data", "A key used to encrypt data"],
+    "correct": 1
+  },
+  {
+    "question": "Which normal form eliminates partial dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "correct": 1
+  },
+  {
+    "question": "Which SQL command is used to remove all records from a table but not the table itself?",
+    "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+    "correct": 2
+  },
+  {
+    "question": "Which SQL clause is used to filter records?",
+    "options": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+    "correct": 2
+  },
+  {
+    "question": "What is a foreign key?",
+    "options": ["A key used to encrypt data", "A key that uniquely identifies a table", "A key that links two tables", "A key used for indexing"],
+    "correct": 2
+  },
+  {
+    "question": "Which isolation level prevents dirty reads?",
+    "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+    "correct": 1
+  },
+  {
+    "question": "Which index improves performance for range queries?",
+    "options": ["Hash Index", "B-Tree Index", "Bitmap Index", "Clustered Index"],
+    "correct": 1
+  },
+  {
+    "question": "Which normal form removes transitive dependency?",
+    "options": ["1NF", "2NF", "3NF", "4NF"],
+    "correct": 2
+  },
+  {
+    "question": "What does ACID stand for?",
+    "options": ["Atomicity, Consistency, Isolation, Durability", "Accuracy, Consistency, Integrity, Durability", "Atomicity, Control, Isolation, Data", "Access, Consistency, Isolation, Durability"],
+    "correct": 0
+  },
+  {
+    "question": "Which SQL keyword is used to sort the result set?",
+    "options": ["SORT BY", "GROUP BY", "ORDER BY", "FILTER"],
+    "correct": 2
+  },
+  {
+    "question": "Which join returns only matching records from both tables?",
+    "options": ["LEFT JOIN", "RIGHT JOIN", "FULL JOIN", "INNER JOIN"],
+    "correct": 3
+  },
+  {
+    "question": "Which database object is used to improve query performance?",
+    "options": ["View", "Trigger", "Index", "Stored Procedure"],
+    "correct": 2
+  },
+  {
+    "question": "What is a transaction in DBMS?",
+    "options": ["A single SQL statement", "A sequence of operations performed as a single unit", "A database backup", "A table constraint"],
+    "correct": 1
+  },
+  {
+    "question": "Which SQL command is used to add a new column to a table?",
+    "options": ["UPDATE", "ALTER", "INSERT", "MODIFY"],
+    "correct": 1
+  },
+  {
+    "question": "Which anomaly occurs due to redundancy?",
+    "options": ["Insertion anomaly", "Deletion anomaly", "Update anomaly", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which type of lock allows multiple transactions to read but not write?",
+    "options": ["Exclusive Lock", "Shared Lock", "Dead Lock", "Intent Lock"],
+    "correct": 1
+  },
+  {
+    "question": "Which SQL function is used to count rows?",
+    "options": ["SUM()", "COUNT()", "TOTAL()", "NUMBER()"],
+    "correct": 1
+  },
+  {
+    "question": "Which command is used to remove a table permanently?",
+    "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+    "correct": 1
+  },
+  {
+    "question": "Which join returns all records when there is a match in either table?",
+    "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+    "correct": 3
+  },
+  {
+    "question": "What is denormalization?",
+    "options": ["Removing redundancy", "Adding redundancy for performance", "Deleting tables", "Splitting tables"],
+    "correct": 1
+  },
+  {
+    "question": "Which constraint ensures column values are unique?",
+    "options": ["NOT NULL", "CHECK", "UNIQUE", "DEFAULT"],
+    "correct": 2
+  },
+  {
+    "question": "Which SQL clause is used with aggregate functions?",
+    "options": ["WHERE", "HAVING", "ORDER BY", "LIMIT"],
+    "correct": 1
+  },
+  {
+    "question": "Which normal form is also called Boyce-Codd Normal Form?",
+    "options": ["3NF", "4NF", "BCNF", "5NF"],
+    "correct": 2
+  },
+  {
+    "question": "Which problem occurs when two transactions wait for each other?",
+    "options": ["Starvation", "Deadlock", "Concurrency", "Rollback"],
+    "correct": 1
+  },
+  {
+    "question": "Which SQL command is used to remove duplicate rows?",
+    "options": ["DISTINCT", "UNIQUE", "REMOVE DUPLICATES", "DELETE DUPLICATES"],
+    "correct": 0
+  }
+]
+,
+  "TOC":[
+  {
+    "question": "Which machine recognizes regular languages?",
+    "options": ["Pushdown Automaton", "Finite Automaton", "Turing Machine", "Linear Bounded Automaton"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a regular language?",
+    "options": ["{ aⁿbⁿ | n ≥ 0 }", "{ aⁿbᵐ | n,m ≥ 0 }", "{ ww | w ∈ {a,b}* }", "{ aⁿbⁿcⁿ | n ≥ 0 }"],
+    "correct": 1
+  },
+  {
+    "question": "Which automaton uses a stack?",
+    "options": ["Finite Automaton", "Pushdown Automaton", "Turing Machine", "Moore Machine"],
+    "correct": 1
+  },
+  {
+    "question": "Which language class is accepted by Pushdown Automata?",
+    "options": ["Regular Languages", "Context-Free Languages", "Context-Sensitive Languages", "Recursive Languages"],
+    "correct": 1
+  },
+  {
+    "question": "Which grammar generates regular languages?",
+    "options": ["Type-0 Grammar", "Type-1 Grammar", "Type-2 Grammar", "Type-3 Grammar"],
+    "correct": 3
+  },
+  {
+    "question": "Which normal form is used for context-free grammars?",
+    "options": ["Greibach Normal Form", "Chomsky Normal Form", "Both A and B", "None of the above"],
+    "correct": 2
+  },
+  {
+    "question": "Which automaton is more powerful?",
+    "options": ["DFA", "NFA", "Both are equal", "ε-NFA"],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following languages is not context-free?",
+    "options": ["{ aⁿbⁿ | n ≥ 0 }", "{ aⁿbⁿcⁿ | n ≥ 0 }", "{ wwʳ | w ∈ {a,b}* }", "{ aⁿbᵐ | n,m ≥ 0 }"],
+    "correct": 1
+  },
+  {
+    "question": "Which theorem is used to prove a language is not regular?",
+    "options": ["Rice’s Theorem", "Pumping Lemma", "Church’s Thesis", "Myhill-Nerode Theorem"],
+    "correct": 1
+  },
+  {
+    "question": "Which theorem characterizes regular languages?",
+    "options": ["Rice’s Theorem", "Pumping Lemma", "Myhill-Nerode Theorem", "Halting Theorem"],
+    "correct": 2
+  },
+  {
+    "question": "Which automaton can recognize all recursively enumerable languages?",
+    "options": ["Finite Automaton", "Pushdown Automaton", "Turing Machine", "Linear Bounded Automaton"],
+    "correct": 2
+  },
+  {
+    "question": "Which problem is undecidable?",
+    "options": ["Membership problem for DFA", "Emptiness problem for DFA", "Halting problem", "String matching"],
+    "correct": 2
+  },
+  {
+    "question": "Which grammar type corresponds to context-free languages?",
+    "options": ["Type-0", "Type-1", "Type-2", "Type-3"],
+    "correct": 2
+  },
+  {
+    "question": "Which machine accepts context-sensitive languages?",
+    "options": ["Finite Automaton", "Pushdown Automaton", "Linear Bounded Automaton", "Turing Machine"],
+    "correct": 2
+  },
+  {
+    "question": "Which language class is closed under union and concatenation?",
+    "options": ["Regular Languages", "Context-Free Languages", "Both A and B", "None of the above"],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following is true about DFA and NFA?",
+    "options": ["NFA is more powerful", "DFA is more powerful", "Both recognize same languages", "They recognize different languages"],
+    "correct": 2
+  },
+  {
+    "question": "Which automaton allows ε-transitions?",
+    "options": ["DFA", "NFA", "ε-NFA", "Moore Machine"],
+    "correct": 2
+  },
+  {
+    "question": "Which closure property is not satisfied by context-free languages?",
+    "options": ["Union", "Concatenation", "Intersection", "Kleene Star"],
+    "correct": 2
+  },
+  {
+    "question": "Which theorem states that any reasonable model of computation is equivalent?",
+    "options": ["Rice’s Theorem", "Church-Turing Thesis", "Pumping Lemma", "Myhill-Nerode Theorem"],
+    "correct": 1
+  },
+  {
+    "question": "Which problem asks whether a Turing machine halts on an input?",
+    "options": ["Membership Problem", "Equivalence Problem", "Halting Problem", "Emptiness Problem"],
+    "correct": 2
+  },
+  {
+    "question": "Which language class lies between context-free and recursively enumerable?",
+    "options": ["Regular", "Context-Free", "Context-Sensitive", "Recursive"],
+    "correct": 2
+  },
+  {
+    "question": "Which grammar generates recursively enumerable languages?",
+    "options": ["Type-0 Grammar", "Type-1 Grammar", "Type-2 Grammar", "Type-3 Grammar"],
+    "correct": 0
+  },
+  {
+    "question": "Which automaton has unlimited memory?",
+    "options": ["DFA", "PDA", "Turing Machine", "NFA"],
+    "correct": 2
+  },
+  {
+    "question": "Which language is accepted by a DFA?",
+    "options": ["Regular Language", "Context-Free Language", "Context-Sensitive Language", "Recursive Language"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem is decidable?",
+    "options": ["Halting problem", "Equivalence of Turing machines", "Membership problem for DFA", "Post correspondence problem"],
+    "correct": 2
+  }
+]
+,
+  "Compiler Design":[
+  {
+    "question": "Which phase of a compiler converts source code into tokens?",
+    "options": ["Syntax Analysis", "Lexical Analysis", "Semantic Analysis", "Code Generation"],
+    "correct": 1
+  },
+  {
+    "question": "Which phase checks the syntax of a program?",
+    "options": ["Lexical Analysis", "Syntax Analysis", "Semantic Analysis", "Code Optimization"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used by a parser to store grammar symbols?",
+    "options": ["Queue", "Stack", "Array", "Linked List"],
+    "correct": 1
+  },
+  {
+    "question": "Which parsing technique starts from the root and tries to reach the leaves?",
+    "options": ["Bottom-Up Parsing", "Top-Down Parsing", "Shift-Reduce Parsing", "LR Parsing"],
+    "correct": 1
+  },
+  {
+    "question": "Which parsing method is LL(1) associated with?",
+    "options": ["Bottom-Up Parsing", "Top-Down Parsing", "Shift-Reduce Parsing", "Operator Precedence Parsing"],
+    "correct": 1
+  },
+  {
+    "question": "Which parsing technique is LR(0) associated with?",
+    "options": ["Bottom-Up Parsing", "Top-Down Parsing", "Recursive Descent Parsing", "Predictive Parsing"],
+    "correct": 0
+  },
+  {
+    "question": "Which phase detects type errors and undefined variables?",
+    "options": ["Lexical Analysis", "Syntax Analysis", "Semantic Analysis", "Code Generation"],
+    "correct": 2
+  },
+  {
+    "question": "Which intermediate code form is easier to optimize?",
+    "options": ["Syntax Tree", "Three-Address Code", "Machine Code", "Tokens"],
+    "correct": 1
+  },
+  {
+    "question": "Which phase of compiler removes unreachable code?",
+    "options": ["Lexical Analysis", "Code Optimization", "Semantic Analysis", "Code Generation"],
+    "correct": 1
+  },
+  {
+    "question": "Which phase translates intermediate code to machine code?",
+    "options": ["Lexical Analysis", "Syntax Analysis", "Semantic Analysis", "Code Generation"],
+    "correct": 3
+  },
+  {
+    "question": "Which lexical class is used to represent identifiers and keywords?",
+    "options": ["Token", "Attribute", "Symbol", "Literal"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique is used for lexical analysis?",
+    "options": ["Finite Automata", "Pushdown Automata", "Turing Machine", "Stack Machine"],
+    "correct": 0
+  },
+  {
+    "question": "Which parser handles left recursion better?",
+    "options": ["Top-Down Parser", "Bottom-Up Parser", "Predictive Parser", "LL Parser"],
+    "correct": 1
+  },
+  {
+    "question": "Which parser is also called shift-reduce parser?",
+    "options": ["Top-Down Parser", "Bottom-Up Parser", "Recursive Descent Parser", "Predictive Parser"],
+    "correct": 1
+  },
+  {
+    "question": "Which compiler phase constructs a symbol table?",
+    "options": ["Lexical Analysis", "Syntax Analysis", "Semantic Analysis", "Code Optimization"],
+    "correct": 2
+  },
+  {
+    "question": "Which grammar type is used in parser generation tools?",
+    "options": ["Regular Grammar", "Context-Free Grammar", "Context-Sensitive Grammar", "Unrestricted Grammar"],
+    "correct": 1
+  },
+  {
+    "question": "Which parser uses lookahead tokens?",
+    "options": ["Recursive Descent Parser", "LL Parser", "LR Parser", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which technique resolves ambiguities in grammar?",
+    "options": ["Left Factoring", "Left Recursion Elimination", "Both A and B", "None of the above"],
+    "correct": 2
+  },
+  {
+    "question": "Which intermediate representation is linear in form?",
+    "options": ["Abstract Syntax Tree", "Three-Address Code", "Parse Tree", "Control Flow Graph"],
+    "correct": 1
+  },
+  {
+    "question": "Which code optimization improves runtime without changing output?",
+    "options": ["Dead Code Elimination", "Loop Unrolling", "Strength Reduction", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which parser is used in yacc and bison?",
+    "options": ["LL Parser", "LR Parser", "Recursive Descent Parser", "Predictive Parser"],
+    "correct": 1
+  },
+  {
+    "question": "Which type of error is detected in semantic analysis?",
+    "options": ["Syntax Error", "Lexical Error", "Type Error", "Runtime Error"],
+    "correct": 2
+  },
+  {
+    "question": "Which parsing strategy uses a parse table?",
+    "options": ["Recursive Descent Parsing", "Predictive Parsing", "Shift-Reduce Parsing", "Operator Precedence Parsing"],
+    "correct": 1
+  },
+  {
+    "question": "Which parser can handle all context-free grammars?",
+    "options": ["LL Parser", "LR Parser", "Recursive Descent Parser", "Predictive Parser"],
+    "correct": 1
+  },
+  {
+    "question": "Which data structure is used to implement symbol tables?",
+    "options": ["Array", "Hash Table", "Stack", "Queue"],
+    "correct": 1
+  },
+  {
+    "question": "Which parser uses bottom-up approach?",
+    "options": ["LL Parser", "LR Parser", "Predictive Parser", "Recursive Descent Parser"],
+    "correct": 1
+  },
+  {
+    "question": "Which optimization removes common subexpressions?",
+    "options": ["Dead Code Elimination", "Loop Optimization", "Common Subexpression Elimination", "Inlining"],
+    "correct": 2
+  },
+  {
+    "question": "Which intermediate code is easier to translate into machine code?",
+    "options": ["Three-Address Code", "Parse Tree", "Syntax Tree", "Tokens"],
+    "correct": 0
+  },
+  {
+    "question": "Which error is detected during compilation but not at runtime?",
+    "options": ["Syntax Error", "Logical Error", "Runtime Error", "Semantic Error"],
+    "correct": 0
+  },
+  {
+    "question": "Which parser is more powerful, LL or LR?",
+    "options": ["LL Parser", "LR Parser", "Both equal", "Depends on grammar"],
+    "correct": 1
+  },
+  {
+    "question": "Which technique is used to remove left recursion in grammar?",
+    "options": ["Left Factoring", "Left Recursion Elimination", "Predictive Parsing", "Backtracking"],
+    "correct": 1
+  },
+  {
+    "question": "Which compiler phase converts parse tree to intermediate code?",
+    "options": ["Lexical Analysis", "Syntax Analysis", "Semantic Analysis", "Intermediate Code Generation"],
+    "correct": 3
+  },
+  {
+    "question": "Which parser is table-driven?",
+    "options": ["Recursive Descent Parser", "Predictive Parser", "LR Parser", "All of the above"],
+    "correct": 2
+  },
+  {
+    "question": "Which compiler component detects undefined variables?",
+    "options": ["Lexical Analyzer", "Syntax Analyzer", "Semantic Analyzer", "Code Generator"],
+    "correct": 2
+  },
+  {
+    "question": "Which parsing method can handle left-recursive grammars directly?",
+    "options": ["LL Parser", "LR Parser", "Predictive Parser", "Recursive Descent Parser"],
+    "correct": 1
+  },
+  {
+    "question": "Which optimization reduces the number of instructions executed in loops?",
+    "options": ["Loop Unrolling", "Dead Code Elimination", "Common Subexpression Elimination", "Inlining"],
+    "correct": 0
+  },
+  {
+    "question": "Which intermediate code structure represents control flow explicitly?",
+    "options": ["Syntax Tree", "Three-Address Code", "Control Flow Graph", "Tokens"],
+    "correct": 2
+  },
+  {
+    "question": "Which parser can detect syntax errors as soon as possible?",
+    "options": ["LL Parser", "LR Parser", "Recursive Descent Parser", "Predictive Parser"],
+    "correct": 0
+  },
+  {
+    "question": "Which compiler phase checks type compatibility?",
+    "options": ["Lexical Analysis", "Syntax Analysis", "Semantic Analysis", "Code Generation"],
+    "correct": 2
+  },
+  {
+    "question": "Which parser is based on shift and reduce actions?",
+    "options": ["LL Parser", "LR Parser", "Predictive Parser", "Recursive Descent Parser"],
+    "correct": 1
+  },
+  {
+    "question": "Which compiler technique improves execution speed?",
+    "options": ["Lexical Analysis", "Code Optimization", "Syntax Analysis", "Semantic Analysis"],
+    "correct": 1
+  },
+  {
+    "question": "Which parser is suitable for real-time compilers?",
+    "options": ["LL Parser", "Recursive Descent Parser", "LR Parser", "Predictive Parser"],
+    "correct": 1
+  },
+  {
+    "question": "Which error occurs due to missing semicolon?",
+    "options": ["Lexical Error", "Syntax Error", "Semantic Error", "Runtime Error"],
+    "correct": 1
+  },
+  {
+    "question": "Which parser uses a stack and input buffer?",
+    "options": ["LL Parser", "LR Parser", "Predictive Parser", "Recursive Descent Parser"],
+    "correct": 1
+  }
+]
+,
+  "Machine Learning": [
+  {
+    "question": "Which type of machine learning uses labeled data?",
+    "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Self-Supervised Learning"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm is used for clustering?",
+    "options": ["Linear Regression", "K-Means", "Decision Tree", "Logistic Regression"],
+    "correct": 1
+  },
+  {
+    "question": "Which metric is used for classification evaluation?",
+    "options": ["Mean Squared Error", "Accuracy", "R² Score", "Variance"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm is used for regression?",
+    "options": ["Linear Regression", "K-Means", "Random Forest Classifier", "KNN Classification"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique prevents overfitting in neural networks?",
+    "options": ["Dropout", "Learning Rate Increase", "Gradient Clipping", "Batch Normalization"],
+    "correct": 0
+  },
+  {
+    "question": "Which method reduces dimensionality?",
+    "options": ["PCA", "LDA", "t-SNE", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which algorithm is ensemble learning?",
+    "options": ["Decision Tree", "Random Forest", "KNN", "SVM"],
+    "correct": 1
+  },
+  {
+    "question": "Which kernel is used in SVM for non-linear data?",
+    "options": ["Linear Kernel", "Polynomial Kernel", "RBF Kernel", "Sigmoid Kernel"],
+    "correct": 2
+  },
+  {
+    "question": "Which method is used to split data into training and test sets?",
+    "options": ["Cross Validation", "Train-Test Split", "Bootstrap", "All of the above"],
+    "correct": 1
+  },
+  {
+    "question": "Which loss function is used in regression?",
+    "options": ["Cross Entropy", "Mean Squared Error", "Hinge Loss", "KL Divergence"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm is used in reinforcement learning?",
+    "options": ["Q-Learning", "K-Means", "Decision Tree", "Linear Regression"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm can handle missing values internally?",
+    "options": ["Linear Regression", "Random Forest", "SVM", "KNN"],
+    "correct": 1
+  },
+  {
+    "question": "Which activation function is used in hidden layers of neural networks?",
+    "options": ["Sigmoid", "ReLU", "Softmax", "Tanh"],
+    "correct": 1
+  },
+  {
+    "question": "Which metric is used for regression evaluation?",
+    "options": ["Accuracy", "R² Score", "Precision", "Recall"],
+    "correct": 1
+  },
+  {
+    "question": "Which technique balances imbalanced datasets?",
+    "options": ["SMOTE", "PCA", "Dropout", "Gradient Clipping"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm uses decision boundaries for classification?",
+    "options": ["KNN", "SVM", "PCA", "Linear Regression"],
+    "correct": 1
+  },
+  {
+    "question": "Which method prevents overfitting by adding penalty terms?",
+    "options": ["Regularization", "Normalization", "Dropout", "Data Augmentation"],
+    "correct": 0
+  },
+  {
+    "question": "Which ensemble method combines weak learners sequentially?",
+    "options": ["Bagging", "Boosting", "Random Forest", "Stacking"],
+    "correct": 1
+  },
+  {
+    "question": "Which ensemble method combines weak learners in parallel?",
+    "options": ["Bagging", "Boosting", "Gradient Descent", "Reinforcement Learning"],
+    "correct": 0
+  },
+  {
+    "question": "Which method reduces variance in predictions?",
+    "options": ["Boosting", "Bagging", "Regularization", "PCA"],
+    "correct": 1
+  },
+  {
+    "question": "Which distance metric is used in KNN?",
+    "options": ["Euclidean Distance", "Manhattan Distance", "Both A and B", "Cosine Similarity"],
+    "correct": 2
+  },
+  {
+    "question": "Which optimization algorithm is used to train neural networks?",
+    "options": ["Gradient Descent", "K-Means", "PCA", "Decision Tree"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique reduces learning rate dynamically?",
+    "options": ["Learning Rate Decay", "Dropout", "Batch Normalization", "Momentum"],
+    "correct": 0
+  },
+  {
+    "question": "Which method evaluates model stability?",
+    "options": ["Cross Validation", "Train-Test Split", "Grid Search", "Random Search"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm is used for anomaly detection?",
+    "options": ["Isolation Forest", "Linear Regression", "Decision Tree", "SVM"],
+    "correct": 0
+  },
+  {
+    "question": "Which method prevents overfitting in tree-based models?",
+    "options": ["Pruning", "Bagging", "Boosting", "Normalization"],
+    "correct": 0
+  },
+  {
+    "question": "Which loss function is used in binary classification?",
+    "options": ["Mean Squared Error", "Cross Entropy Loss", "Hinge Loss", "KL Divergence"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm reduces data dimensionality for visualization?",
+    "options": ["PCA", "KNN", "Random Forest", "SVM"],
+    "correct": 0
+  },
+  {
+    "question": "Which neural network is suitable for image recognition?",
+    "options": ["RNN", "CNN", "MLP", "LSTM"],
+    "correct": 1
+  },
+  {
+    "question": "Which neural network is suitable for sequence data?",
+    "options": ["CNN", "RNN", "MLP", "SVM"],
+    "correct": 1
+  },
+  {
+    "question": "Which regularization technique adds L2 penalty?",
+    "options": ["Ridge Regression", "Lasso Regression", "ElasticNet", "Dropout"],
+    "correct": 0
+  },
+  {
+    "question": "Which regularization technique adds L1 penalty?",
+    "options": ["Ridge Regression", "Lasso Regression", "ElasticNet", "Dropout"],
+    "correct": 1
+  },
+  {
+    "question": "Which metric is used for multi-class classification?",
+    "options": ["Accuracy", "F1 Score", "Precision", "Recall"],
+    "correct": 0
+  },
+  {
+    "question": "Which evaluation method measures trade-off between precision and recall?",
+    "options": ["ROC Curve", "Confusion Matrix", "F1 Score", "Accuracy"],
+    "correct": 2
+  },
+  {
+    "question": "Which algorithm is used for dimensionality reduction preserving non-linear structure?",
+    "options": ["PCA", "LDA", "t-SNE", "SVM"],
+    "correct": 2
+  },
+  {
+    "question": "Which method handles categorical features in tree-based models?",
+    "options": ["Label Encoding", "One-Hot Encoding", "Both A and B", "Normalization"],
+    "correct": 2
+  },
+  {
+    "question": "Which hyperparameter controls number of neighbors in KNN?",
+    "options": ["k", "Distance Metric", "Learning Rate", "Max Depth"],
+    "correct": 0
+  },
+  {
+    "question": "Which optimizer uses momentum to accelerate convergence?",
+    "options": ["SGD", "Adam", "RMSProp", "SGD with Momentum"],
+    "correct": 3
+  },
+  {
+    "question": "Which technique prevents gradient vanishing in deep networks?",
+    "options": ["ReLU Activation", "Sigmoid Activation", "Tanh Activation", "Softmax Activation"],
+    "correct": 0
+  },
+  {
+    "question": "Which method combines predictions from multiple models?",
+    "options": ["Ensemble Learning", "Regularization", "Normalization", "Cross Validation"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm can perform both classification and regression?",
+    "options": ["SVM", "Random Forest", "Linear Regression", "Decision Tree"],
+    "correct": 1
+  },
+  {
+    "question": "Which method evaluates feature importance in tree-based models?",
+    "options": ["Permutation Importance", "Cross Validation", "Confusion Matrix", "Gradient Descent"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm is robust to outliers?",
+    "options": ["Linear Regression", "Decision Tree", "Random Forest", "Both B and C"],
+    "correct": 3
+  },
+  {
+    "question": "Which method is used for hyperparameter tuning?",
+    "options": ["Grid Search", "Random Search", "Bayesian Optimization", "All of the above"],
+    "correct": 3
+  }
+]
+,
+  "Dynamic Programming": [
+  {
+    "question": "Which technique is used to store results of overlapping subproblems?",
+    "options": ["Greedy", "Dynamic Programming", "Divide and Conquer", "Backtracking"],
+    "correct": 1
+  },
+  {
+    "question": "Which problem is a classic example of dynamic programming?",
+    "options": ["Binary Search", "Fibonacci Sequence", "Quick Sort", "Heap Sort"],
+    "correct": 1
+  },
+  {
+    "question": "Which type of dynamic programming stores solutions in a table?",
+    "options": ["Top-Down (Memoization)", "Bottom-Up (Tabulation)", "Both A and B", "None of the above"],
+    "correct": 2
+  },
+  {
+    "question": "Which problem finds the maximum sum of a subsequence with no adjacent elements?",
+    "options": ["0/1 Knapsack", "House Robber Problem", "Longest Increasing Subsequence", "Matrix Chain Multiplication"],
+    "correct": 1
+  },
+  {
+    "question": "Which problem uses a DP table of size n x W?",
+    "options": ["0/1 Knapsack", "Fibonacci", "Longest Common Subsequence", "Matrix Chain Multiplication"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem finds the longest subsequence common to two sequences?",
+    "options": ["Longest Increasing Subsequence", "Longest Common Subsequence", "0/1 Knapsack", "Rod Cutting"],
+    "correct": 1
+  },
+  {
+    "question": "Which problem partitions a string into palindromic substrings?",
+    "options": ["Palindrome Partitioning", "Rod Cutting", "Matrix Chain Multiplication", "Subset Sum"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem minimizes cost of multiplying a chain of matrices?",
+    "options": ["Matrix Chain Multiplication", "0/1 Knapsack", "Longest Common Subsequence", "Coin Change"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem counts the number of ways to make a sum using coins?",
+    "options": ["0/1 Knapsack", "Coin Change", "Subset Sum", "Rod Cutting"],
+    "correct": 1
+  },
+  {
+    "question": "Which problem finds the minimum number of steps to reach 1?",
+    "options": ["Min Steps to One", "Fibonacci", "0/1 Knapsack", "Longest Common Subsequence"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem is solved using memoization or tabulation?",
+    "options": ["Binary Search", "Dynamic Programming Problems", "Greedy Problems", "Sorting Problems"],
+    "correct": 1
+  },
+  {
+    "question": "Which DP problem finds the maximum profit from cutting rods?",
+    "options": ["Rod Cutting Problem", "0/1 Knapsack", "Subset Sum", "Coin Change"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem uses DP to count subsets with a given sum?",
+    "options": ["Subset Sum Problem", "Longest Common Subsequence", "Matrix Chain Multiplication", "Rod Cutting"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem finds the longest increasing subsequence in an array?",
+    "options": ["LCS", "LIS", "0/1 Knapsack", "Matrix Chain Multiplication"],
+    "correct": 1
+  },
+  {
+    "question": "Which DP problem minimizes the edit distance between two strings?",
+    "options": ["Longest Common Subsequence", "Edit Distance Problem", "0/1 Knapsack", "Matrix Chain Multiplication"],
+    "correct": 1
+  },
+  {
+    "question": "Which DP problem calculates maximum sum path in a triangle?",
+    "options": ["Triangle Sum Problem", "Coin Change", "Rod Cutting", "0/1 Knapsack"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem finds maximum sum subarray with constraints?",
+    "options": ["Maximum Subarray Sum", "House Robber Problem", "Rod Cutting", "Matrix Chain Multiplication"],
+    "correct": 1
+  },
+  {
+    "question": "Which problem uses DP to solve optimal binary search tree?",
+    "options": ["Optimal BST", "Matrix Chain Multiplication", "Rod Cutting", "Subset Sum"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem is used to solve minimum coin change?",
+    "options": ["0/1 Knapsack", "Coin Change (Min Coins)", "Subset Sum", "Rod Cutting"],
+    "correct": 1
+  },
+  {
+    "question": "Which DP technique starts solving subproblems from smaller inputs?",
+    "options": ["Top-Down", "Bottom-Up", "Greedy", "Divide and Conquer"],
+    "correct": 1
+  },
+  {
+    "question": "Which problem uses DP to find maximum rectangle in binary matrix?",
+    "options": ["Maximum Rectangle Problem", "Matrix Chain Multiplication", "Subset Sum", "Coin Change"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem finds number of unique paths in a grid?",
+    "options": ["Grid Unique Paths", "Subset Sum", "Matrix Chain Multiplication", "Longest Common Subsequence"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem maximizes sum of non-adjacent numbers in an array?",
+    "options": ["House Robber", "0/1 Knapsack", "Subset Sum", "Longest Increasing Subsequence"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem computes minimum cost to reach end in a matrix?",
+    "options": ["Min Cost Path", "Coin Change", "Rod Cutting", "Longest Common Subsequence"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem solves partitioning of array into subsets with equal sum?",
+    "options": ["Partition Problem", "Subset Sum Problem", "Coin Change", "Matrix Chain Multiplication"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem counts distinct subsequences of a string?",
+    "options": ["Distinct Subsequence Problem", "Longest Common Subsequence", "Edit Distance", "Rod Cutting"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem finds maximum sum subarray (Kadane’s Algorithm)?",
+    "options": ["Maximum Subarray Sum", "0/1 Knapsack", "Coin Change", "Rod Cutting"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem uses DP to solve stock buy-sell with cooldown?",
+    "options": ["Stock Buy-Sell Problem", "Longest Increasing Subsequence", "0/1 Knapsack", "Subset Sum"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem finds maximum profit with weight constraints?",
+    "options": ["0/1 Knapsack", "Rod Cutting", "Subset Sum", "Matrix Chain Multiplication"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem finds minimum jumps to reach end of array?",
+    "options": ["Minimum Jumps Problem", "Coin Change", "Rod Cutting", "Subset Sum"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem finds maximum sum path in a pyramid of numbers?",
+    "options": ["Triangle Maximum Sum", "Coin Change", "Rod Cutting", "0/1 Knapsack"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem solves regular expression matching?",
+    "options": ["Regex Matching Problem", "Longest Common Subsequence", "Subset Sum", "0/1 Knapsack"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem counts total number of ways to climb stairs?",
+    "options": ["Climbing Stairs Problem", "Rod Cutting", "Subset Sum", "Coin Change"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem finds minimum cost to cut a rod into pieces?",
+    "options": ["Rod Cutting Problem", "0/1 Knapsack", "Subset Sum", "Matrix Chain Multiplication"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem maximizes sum of elements in a grid with constraints?",
+    "options": ["Max Path Sum in Grid", "Longest Common Subsequence", "Coin Change", "Rod Cutting"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem finds number of ways to partition integer n?",
+    "options": ["Integer Partition Problem", "Subset Sum Problem", "Rod Cutting", "Coin Change"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem finds minimum number of coins for a given amount?",
+    "options": ["Coin Change (Min Coins)", "0/1 Knapsack", "Subset Sum", "Rod Cutting"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem finds the longest palindromic subsequence?",
+    "options": ["Longest Palindromic Subsequence", "Longest Common Subsequence", "Rod Cutting", "Matrix Chain Multiplication"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem finds minimum edit operations between strings?",
+    "options": ["Edit Distance Problem", "Longest Common Subsequence", "0/1 Knapsack", "Rod Cutting"],
+    "correct": 0
+  },
+  {
+    "question": "Which DP problem maximizes sum of non-overlapping subarrays?",
+    "options": ["Maximum Subarray Problem", "House Robber Problem", "Rod Cutting", "0/1 Knapsack"],
+    "correct": 1
+  },
+  {
+    "question": "Which problem uses DP to solve weighted interval scheduling?",
+    "options": ["Weighted Interval Scheduling", "0/1 Knapsack", "Rod Cutting", "Subset Sum"],
+    "correct": 0
+  },
+  {
+    "question": "Which problem calculates minimum number of deletions to make string palindrome?",
+    "options": ["Min Deletion Palindrome", "Longest Common Subsequence", "Rod Cutting", "Matrix Chain Multiplication"],
+    "correct": 0
+  }
+]
+,
+  "Data Warehousing":[
+  {
+    "question": "What is the main purpose of data warehousing?",
+    "options": ["Real-time transaction processing", "Analyzing historical data", "Storing raw data only", "Storing unstructured data"],
+    "correct": 1
+  },
+  {
+    "question": "Which process extracts, transforms, and loads data into a warehouse?",
+    "options": ["ETL Process", "OLAP", "Data Mining", "Data Cleaning"],
+    "correct": 0
+  },
+  {
+    "question": "Which type of OLAP operation summarizes data along a dimension?",
+    "options": ["Drill-down", "Roll-up", "Slice", "Dice"],
+    "correct": 1
+  },
+  {
+    "question": "Which architecture is used for data warehousing?",
+    "options": ["Three-tier Architecture", "Two-tier Architecture", "Client-Server Architecture", "Star Network Architecture"],
+    "correct": 0
+  },
+  {
+    "question": "Which schema consists of a fact table connected to dimension tables?",
+    "options": ["Star Schema", "Snowflake Schema", "Galaxy Schema", "ER Schema"],
+    "correct": 0
+  },
+  {
+    "question": "Which schema normalizes dimension tables in a warehouse?",
+    "options": ["Star Schema", "Snowflake Schema", "Fact Schema", "OLAP Schema"],
+    "correct": 1
+  },
+  {
+    "question": "Which technique discovers patterns in large datasets?",
+    "options": ["Data Mining", "ETL", "OLAP", "Normalization"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining task predicts numerical values?",
+    "options": ["Classification", "Clustering", "Regression", "Association Rule Mining"],
+    "correct": 2
+  },
+  {
+    "question": "Which data mining task predicts categorical labels?",
+    "options": ["Classification", "Regression", "Clustering", "Dimensionality Reduction"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm is used for market basket analysis?",
+    "options": ["Apriori Algorithm", "K-Means", "Decision Tree", "Naive Bayes"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP operation selects a specific value of a dimension?",
+    "options": ["Slice", "Dice", "Roll-up", "Drill-down"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP operation performs multidimensional selection?",
+    "options": ["Slice", "Dice", "Roll-up", "Drill-down"],
+    "correct": 1
+  },
+  {
+    "question": "Which clustering algorithm partitions data into k clusters?",
+    "options": ["K-Means", "Hierarchical Clustering", "DBSCAN", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which clustering algorithm forms a hierarchy of clusters?",
+    "options": ["K-Means", "Hierarchical Clustering", "DBSCAN", "Apriori"],
+    "correct": 1
+  },
+  {
+    "question": "Which data mining technique finds frequently co-occurring items?",
+    "options": ["Association Rule Mining", "Classification", "Regression", "Clustering"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure indicates the strength of an association rule?",
+    "options": ["Support", "Confidence", "Lift", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which method reduces dimensionality in data mining?",
+    "options": ["PCA", "Clustering", "Decision Tree", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP type is optimized for fast query processing?",
+    "options": ["MOLAP", "ROLAP", "HOLAP", "DOLAP"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP type stores data in relational databases?",
+    "options": ["MOLAP", "ROLAP", "HOLAP", "DOLAP"],
+    "correct": 1
+  },
+  {
+    "question": "Which data mining technique groups similar objects?",
+    "options": ["Classification", "Clustering", "Regression", "Association Mining"],
+    "correct": 1
+  },
+  {
+    "question": "Which data cleaning step handles missing values?",
+    "options": ["Data Imputation", "Data Transformation", "Data Integration", "Data Reduction"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure indicates how often an item appears in dataset?",
+    "options": ["Support", "Confidence", "Lift", "Entropy"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure indicates reliability of an association rule?",
+    "options": ["Support", "Confidence", "Lift", "Entropy"],
+    "correct": 1
+  },
+  {
+    "question": "Which method handles large, sparse data for clustering?",
+    "options": ["DBSCAN", "K-Means", "Hierarchical Clustering", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining task identifies anomalies in data?",
+    "options": ["Anomaly Detection", "Classification", "Regression", "Clustering"],
+    "correct": 0
+  },
+  {
+    "question": "Which schema combines multiple fact tables in a warehouse?",
+    "options": ["Galaxy Schema", "Star Schema", "Snowflake Schema", "ER Schema"],
+    "correct": 0
+  },
+  {
+    "question": "Which operation drills into detailed data along a hierarchy?",
+    "options": ["Drill-down", "Roll-up", "Slice", "Dice"],
+    "correct": 0
+  },
+  {
+    "question": "Which process integrates data from multiple sources?",
+    "options": ["ETL", "Data Mining", "OLAP", "Normalization"],
+    "correct": 0
+  },
+  {
+    "question": "Which clustering algorithm can detect clusters of arbitrary shape?",
+    "options": ["K-Means", "DBSCAN", "Hierarchical Clustering", "Apriori"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm is used for predictive modeling in data mining?",
+    "options": ["Decision Tree", "Apriori", "K-Means", "DBSCAN"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP operation aggregates data along multiple dimensions?",
+    "options": ["Roll-up", "Drill-down", "Slice", "Dice"],
+    "correct": 3
+  },
+  {
+    "question": "Which technique handles noisy data in data warehouses?",
+    "options": ["Data Cleaning", "Data Mining", "OLAP", "ETL"], 
+    "correct": 0
+  },
+  {
+    "question": "Which method identifies relationships between variables?",
+    "options": ["Association Rule Mining", "Clustering", "Classification", "Dimensionality Reduction"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP operation shows data for a specific dimension value?",
+    "options": ["Slice", "Dice", "Roll-up", "Drill-down"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining technique is unsupervised?",
+    "options": ["Classification", "Regression", "Clustering", "Decision Tree"],
+    "correct": 2
+  },
+  {
+    "question": "Which process reduces data volume while maintaining patterns?",
+    "options": ["Data Reduction", "Data Cleaning", "Data Integration", "Data Transformation"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure compares expected and observed occurrence in association rules?",
+    "options": ["Support", "Confidence", "Lift", "Entropy"],
+    "correct": 2
+  },
+  {
+    "question": "Which schema represents a snowflake structure for dimensions?",
+    "options": ["Snowflake Schema", "Star Schema", "Galaxy Schema", "ER Schema"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining method predicts continuous values?",
+    "options": ["Classification", "Regression", "Clustering", "Association Rule Mining"],
+    "correct": 1
+  },
+  {
+    "question": "Which OLAP type is hybrid of MOLAP and ROLAP?",
+    "options": ["HOLAP", "MOLAP", "ROLAP", "DOLAP"],
+    "correct": 0
+  },
+  {
+    "question": "Which ETL step converts data into required format?",
+    "options": ["Transformation", "Extraction", "Loading", "Cleaning"],
+    "correct": 0
+  },
+  {
+    "question": "Which clustering method merges clusters recursively?",
+    "options": ["Hierarchical Clustering", "K-Means", "DBSCAN", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining algorithm uses information gain for splits?",
+    "options": ["Decision Tree", "K-Means", "Apriori", "DBSCAN"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure is used to evaluate predictive model accuracy?",
+    "options": ["Precision", "Recall", "F1 Score", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which data mining task discovers frequent patterns in transactional data?",
+    "options": ["Association Rule Mining", "Classification", "Regression", "Clustering"],
+    "correct": 0
+  }
+]
+
+,
+  "Data Mining":[
+  {
+    "question": "What is the main purpose of data warehousing?",
+    "options": ["Real-time transaction processing", "Analyzing historical data", "Storing raw data only", "Storing unstructured data"],
+    "correct": 1
+  },
+  {
+    "question": "Which process extracts, transforms, and loads data into a warehouse?",
+    "options": ["ETL Process", "OLAP", "Data Mining", "Data Cleaning"],
+    "correct": 0
+  },
+  {
+    "question": "Which type of OLAP operation summarizes data along a dimension?",
+    "options": ["Drill-down", "Roll-up", "Slice", "Dice"],
+    "correct": 1
+  },
+  {
+    "question": "Which architecture is used for data warehousing?",
+    "options": ["Three-tier Architecture", "Two-tier Architecture", "Client-Server Architecture", "Star Network Architecture"],
+    "correct": 0
+  },
+  {
+    "question": "Which schema consists of a fact table connected to dimension tables?",
+    "options": ["Star Schema", "Snowflake Schema", "Galaxy Schema", "ER Schema"],
+    "correct": 0
+  },
+  {
+    "question": "Which schema normalizes dimension tables in a warehouse?",
+    "options": ["Star Schema", "Snowflake Schema", "Fact Schema", "OLAP Schema"],
+    "correct": 1
+  },
+  {
+    "question": "Which technique discovers patterns in large datasets?",
+    "options": ["Data Mining", "ETL", "OLAP", "Normalization"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining task predicts numerical values?",
+    "options": ["Classification", "Clustering", "Regression", "Association Rule Mining"],
+    "correct": 2
+  },
+  {
+    "question": "Which data mining task predicts categorical labels?",
+    "options": ["Classification", "Regression", "Clustering", "Dimensionality Reduction"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm is used for market basket analysis?",
+    "options": ["Apriori Algorithm", "K-Means", "Decision Tree", "Naive Bayes"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP operation selects a specific value of a dimension?",
+    "options": ["Slice", "Dice", "Roll-up", "Drill-down"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP operation performs multidimensional selection?",
+    "options": ["Slice", "Dice", "Roll-up", "Drill-down"],
+    "correct": 1
+  },
+  {
+    "question": "Which clustering algorithm partitions data into k clusters?",
+    "options": ["K-Means", "Hierarchical Clustering", "DBSCAN", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which clustering algorithm forms a hierarchy of clusters?",
+    "options": ["K-Means", "Hierarchical Clustering", "DBSCAN", "Apriori"],
+    "correct": 1
+  },
+  {
+    "question": "Which data mining technique finds frequently co-occurring items?",
+    "options": ["Association Rule Mining", "Classification", "Regression", "Clustering"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure indicates the strength of an association rule?",
+    "options": ["Support", "Confidence", "Lift", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which method reduces dimensionality in data mining?",
+    "options": ["PCA", "Clustering", "Decision Tree", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP type is optimized for fast query processing?",
+    "options": ["MOLAP", "ROLAP", "HOLAP", "DOLAP"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP type stores data in relational databases?",
+    "options": ["MOLAP", "ROLAP", "HOLAP", "DOLAP"],
+    "correct": 1
+  },
+  {
+    "question": "Which data mining technique groups similar objects?",
+    "options": ["Classification", "Clustering", "Regression", "Association Mining"],
+    "correct": 1
+  },
+  {
+    "question": "Which data cleaning step handles missing values?",
+    "options": ["Data Imputation", "Data Transformation", "Data Integration", "Data Reduction"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure indicates how often an item appears in dataset?",
+    "options": ["Support", "Confidence", "Lift", "Entropy"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure indicates reliability of an association rule?",
+    "options": ["Support", "Confidence", "Lift", "Entropy"],
+    "correct": 1
+  },
+  {
+    "question": "Which method handles large, sparse data for clustering?",
+    "options": ["DBSCAN", "K-Means", "Hierarchical Clustering", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining task identifies anomalies in data?",
+    "options": ["Anomaly Detection", "Classification", "Regression", "Clustering"],
+    "correct": 0
+  },
+  {
+    "question": "Which schema combines multiple fact tables in a warehouse?",
+    "options": ["Galaxy Schema", "Star Schema", "Snowflake Schema", "ER Schema"],
+    "correct": 0
+  },
+  {
+    "question": "Which operation drills into detailed data along a hierarchy?",
+    "options": ["Drill-down", "Roll-up", "Slice", "Dice"],
+    "correct": 0
+  },
+  {
+    "question": "Which process integrates data from multiple sources?",
+    "options": ["ETL", "Data Mining", "OLAP", "Normalization"],
+    "correct": 0
+  },
+  {
+    "question": "Which clustering algorithm can detect clusters of arbitrary shape?",
+    "options": ["K-Means", "DBSCAN", "Hierarchical Clustering", "Apriori"],
+    "correct": 1
+  },
+  {
+    "question": "Which algorithm is used for predictive modeling in data mining?",
+    "options": ["Decision Tree", "Apriori", "K-Means", "DBSCAN"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP operation aggregates data along multiple dimensions?",
+    "options": ["Roll-up", "Drill-down", "Slice", "Dice"],
+    "correct": 3
+  },
+  {
+    "question": "Which technique handles noisy data in data warehouses?",
+    "options": ["Data Cleaning", "Data Mining", "OLAP", "ETL"], 
+    "correct": 0
+  },
+  {
+    "question": "Which method identifies relationships between variables?",
+    "options": ["Association Rule Mining", "Clustering", "Classification", "Dimensionality Reduction"],
+    "correct": 0
+  },
+  {
+    "question": "Which OLAP operation shows data for a specific dimension value?",
+    "options": ["Slice", "Dice", "Roll-up", "Drill-down"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining technique is unsupervised?",
+    "options": ["Classification", "Regression", "Clustering", "Decision Tree"],
+    "correct": 2
+  },
+  {
+    "question": "Which process reduces data volume while maintaining patterns?",
+    "options": ["Data Reduction", "Data Cleaning", "Data Integration", "Data Transformation"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure compares expected and observed occurrence in association rules?",
+    "options": ["Support", "Confidence", "Lift", "Entropy"],
+    "correct": 2
+  },
+  {
+    "question": "Which schema represents a snowflake structure for dimensions?",
+    "options": ["Snowflake Schema", "Star Schema", "Galaxy Schema", "ER Schema"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining method predicts continuous values?",
+    "options": ["Classification", "Regression", "Clustering", "Association Rule Mining"],
+    "correct": 1
+  },
+  {
+    "question": "Which OLAP type is hybrid of MOLAP and ROLAP?",
+    "options": ["HOLAP", "MOLAP", "ROLAP", "DOLAP"],
+    "correct": 0
+  },
+  {
+    "question": "Which ETL step converts data into required format?",
+    "options": ["Transformation", "Extraction", "Loading", "Cleaning"],
+    "correct": 0
+  },
+  {
+    "question": "Which clustering method merges clusters recursively?",
+    "options": ["Hierarchical Clustering", "K-Means", "DBSCAN", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which data mining algorithm uses information gain for splits?",
+    "options": ["Decision Tree", "K-Means", "Apriori", "DBSCAN"],
+    "correct": 0
+  },
+  {
+    "question": "Which measure is used to evaluate predictive model accuracy?",
+    "options": ["Precision", "Recall", "F1 Score", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which data mining task discovers frequent patterns in transactional data?",
+    "options": ["Association Rule Mining", "Classification", "Regression", "Clustering"],
+    "correct": 0
+  }
+]
+
+,
+  "Cloud Computing": [
+  {
+    "question": "Which cloud deployment model provides services to the general public?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud model combines public and private clouds?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 2
+  },
+  {
+    "question": "Which service model provides virtualized computing resources over the internet?",
+    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud service model provides ready-to-use applications?",
+    "options": ["IaaS", "PaaS", "SaaS", "DaaS"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud service model provides platform for building applications?",
+    "options": ["IaaS", "PaaS", "SaaS", "CaaS"],
+    "correct": 1
+  },
+  {
+    "question": "Which characteristic of cloud computing allows scaling resources dynamically?",
+    "options": ["On-Demand Self-Service", "Broad Network Access", "Rapid Elasticity", "Measured Service"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud characteristic allows access from any device with internet?",
+    "options": ["On-Demand Self-Service", "Broad Network Access", "Rapid Elasticity", "Resource Pooling"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud characteristic allows automatic metering of resources?",
+    "options": ["Measured Service", "Broad Network Access", "Rapid Elasticity", "Resource Pooling"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud deployment model is used by a single organization?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud model allows sharing infrastructure among multiple organizations?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 3
+  },
+  {
+    "question": "Which tool is used for orchestration of containerized applications in the cloud?",
+    "options": ["Docker", "Kubernetes", "OpenStack", "VMware"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud security principle ensures data confidentiality?",
+    "options": ["Authentication", "Authorization", "Encryption", "Replication"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud deployment uses resources from multiple providers simultaneously?",
+    "options": ["Private Cloud", "Multi-Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 1
+  },
+  {
+    "question": "Which technology virtualizes hardware resources in cloud?",
+    "options": ["Hypervisor", "Docker", "Kubernetes", "API Gateway"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud model provides desktop environments over the internet?",
+    "options": ["DaaS", "SaaS", "PaaS", "IaaS"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud service model allows developers to run functions without managing servers?",
+    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "correct": 3
+  },
+  {
+    "question": "Which cloud deployment model provides better control and security?",
+    "options": ["Public Cloud", "Private Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 1
+  },
+  {
+    "question": "Which service model reduces hardware and OS management for developers?",
+    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud concept allows multiple users to share resources efficiently?",
+    "options": ["Rapid Elasticity", "Resource Pooling", "Measured Service", "On-Demand Self-Service"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud feature allows scaling up/down resources automatically?",
+    "options": ["On-Demand Self-Service", "Resource Pooling", "Rapid Elasticity", "Measured Service"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud computing type charges based on usage?",
+    "options": ["Measured Service", "On-Premise", "Private Cloud", "Hybrid Cloud"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud security ensures user access control?",
+    "options": ["Authentication", "Authorization", "Encryption", "Replication"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud deployment model reduces IT infrastructure cost for small companies?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud provider offers AWS EC2 service?",
+    "options": ["Google", "Amazon", "Microsoft", "IBM"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud provider offers Azure Virtual Machines?",
+    "options": ["Amazon", "Google", "Microsoft", "IBM"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud provider offers Google Cloud Compute Engine?",
+    "options": ["Microsoft", "Amazon", "IBM", "Google"],
+    "correct": 3
+  },
+  {
+    "question": "Which cloud model allows organizations to meet regulatory requirements?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 0
+  },
+  {
+    "question": "Which tool manages cloud resources and automates deployment?",
+    "options": ["Terraform", "Docker", "Kubernetes", "Ansible"],
+    "correct": 0
+  },
+  {
+    "question": "Which service model allows use of software without installation?",
+    "options": ["IaaS", "PaaS", "SaaS", "DaaS"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud concept enables multiple clients to use same infrastructure securely?",
+    "options": ["Resource Pooling", "Rapid Elasticity", "Measured Service", "On-Demand Self-Service"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud service allows serverless event-driven applications?",
+    "options": ["IaaS", "PaaS", "FaaS", "SaaS"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud model is suitable for collaborative projects between organizations?",
+    "options": ["Private Cloud", "Public Cloud", "Community Cloud", "Hybrid Cloud"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud deployment model offers high scalability and low cost?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 1
+  },
+  {
+    "question": "Which type of cloud provides disaster recovery solutions?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 2
+  },
+  {
+    "question": "Which security technique protects cloud data in transit?",
+    "options": ["Encryption", "Authentication", "Authorization", "Firewall"],
+    "correct": 0
+  },
+  {
+    "question": "Which deployment allows using both on-premise and cloud resources?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud model is managed and owned by a single organization?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud feature ensures automatic load balancing?",
+    "options": ["Rapid Elasticity", "Resource Pooling", "Measured Service", "Broad Network Access"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud service allows developers to build applications without worrying about infrastructure?",
+    "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud type is used for testing and development environments?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud model supports multi-tenancy?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 1
+  },
+  {
+    "question": "Which cloud service provides APIs for running code without servers?",
+    "options": ["IaaS", "PaaS", "FaaS", "SaaS"],
+    "correct": 2
+  },
+  {
+    "question": "Which cloud computing characteristic allows pay-as-you-go pricing?",
+    "options": ["Measured Service", "Resource Pooling", "Broad Network Access", "Rapid Elasticity"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud concept allows scaling resources automatically based on demand?",
+    "options": ["Rapid Elasticity", "Resource Pooling", "Measured Service", "On-Demand Self-Service"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud deployment is recommended for sensitive government data?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Community Cloud"],
+    "correct": 0
+  },
+  {
+    "question": "Which cloud model is ideal for collaborative scientific research?",
+    "options": ["Private Cloud", "Public Cloud", "Community Cloud", "Hybrid Cloud"],
+    "correct": 2
+  }
+]
+,
+  "Data Science": [
+  {
+    "question": "Which step is first in the data science process?",
+    "options": ["Data Collection", "Data Cleaning", "Model Training", "Data Visualization"],
+    "correct": 0
+  },
+  {
+    "question": "Which library is widely used for data analysis in Python?",
+    "options": ["NumPy", "Pandas", "Matplotlib", "Seaborn"],
+    "correct": 1
+  },
+  {
+    "question": "Which method is used to handle missing values in data?",
+    "options": ["Data Imputation", "Data Normalization", "Data Reduction", "Data Encoding"],
+    "correct": 0
+  },
+  {
+    "question": "Which visualization is used to show distribution of a continuous variable?",
+    "options": ["Histogram", "Bar Chart", "Pie Chart", "Scatter Plot"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique reduces dimensionality in datasets?",
+    "options": ["PCA", "K-Means", "Decision Tree", "Naive Bayes"],
+    "correct": 0
+  },
+  {
+    "question": "Which method is used for supervised learning regression tasks?",
+    "options": ["Linear Regression", "K-Means", "DBSCAN", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which metric is used to evaluate classification models?",
+    "options": ["Accuracy", "MSE", "R² Score", "Variance"],
+    "correct": 0
+  },
+  {
+    "question": "Which metric evaluates regression models?",
+    "options": ["Mean Squared Error", "Accuracy", "F1 Score", "Precision"],
+    "correct": 0
+  },
+  {
+    "question": "Which library is used for machine learning in Python?",
+    "options": ["TensorFlow", "Scikit-learn", "Keras", "Matplotlib"],
+    "correct": 1
+  },
+  {
+    "question": "Which method splits data into training and testing sets?",
+    "options": ["Train-Test Split", "Cross Validation", "Bootstrap", "PCA"],
+    "correct": 0
+  },
+  {
+    "question": "Which type of plot shows relationship between two continuous variables?",
+    "options": ["Scatter Plot", "Histogram", "Bar Chart", "Pie Chart"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique handles categorical data for models?",
+    "options": ["One-Hot Encoding", "PCA", "Normalization", "Standardization"],
+    "correct": 0
+  },
+  {
+    "question": "Which sampling method handles imbalanced datasets?",
+    "options": ["SMOTE", "Random Sampling", "Stratified Sampling", "Oversampling"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm is used for clustering?",
+    "options": ["K-Means", "Decision Tree", "Linear Regression", "Logistic Regression"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm is used for association rule mining?",
+    "options": ["Apriori", "K-Means", "Linear Regression", "Random Forest"],
+    "correct": 0
+  },
+  {
+    "question": "Which method evaluates model performance with multiple splits?",
+    "options": ["Cross Validation", "Train-Test Split", "Bootstrap", "Grid Search"],
+    "correct": 0
+  },
+  {
+    "question": "Which method handles outliers by replacing them?",
+    "options": ["Capping", "Normalization", "One-Hot Encoding", "Standardization"],
+    "correct": 0
+  },
+  {
+    "question": "Which metric balances precision and recall?",
+    "options": ["F1 Score", "Accuracy", "R² Score", "Mean Squared Error"],
+    "correct": 0
+  },
+  {
+    "question": "Which step comes after data collection in data science?",
+    "options": ["Data Cleaning", "Model Training", "Data Visualization", "Deployment"],
+    "correct": 0
+  },
+  {
+    "question": "Which plot is used to show relationship between two categorical variables?",
+    "options": ["Bar Chart", "Scatter Plot", "Line Plot", "Histogram"],
+    "correct": 0
+  },
+  {
+    "question": "Which normalization technique scales data between 0 and 1?",
+    "options": ["Min-Max Scaling", "Z-Score Normalization", "Standardization", "Log Transformation"],
+    "correct": 0
+  },
+  {
+    "question": "Which standardization method scales data to zero mean and unit variance?",
+    "options": ["Z-Score Normalization", "Min-Max Scaling", "Log Transformation", "One-Hot Encoding"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique reduces feature correlation in datasets?",
+    "options": ["PCA", "K-Means", "Decision Tree", "Apriori"],
+    "correct": 0
+  },
+  {
+    "question": "Which method predicts continuous numeric values?",
+    "options": ["Regression", "Classification", "Clustering", "Association Rule Mining"],
+    "correct": 0
+  },
+  {
+    "question": "Which method predicts categorical labels?",
+    "options": ["Classification", "Regression", "Clustering", "Dimensionality Reduction"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique is unsupervised learning?",
+    "options": ["Clustering", "Regression", "Classification", "Linear Regression"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm handles high-dimensional datasets?",
+    "options": ["PCA", "K-Means", "Decision Tree", "Naive Bayes"],
+    "correct": 0
+  },
+  {
+    "question": "Which library is used for deep learning in Python?",
+    "options": ["TensorFlow", "Scikit-learn", "Pandas", "Matplotlib"],
+    "correct": 0
+  },
+  {
+    "question": "Which step in data science converts raw data into usable format?",
+    "options": ["Data Preprocessing", "Data Collection", "Model Deployment", "Data Visualization"],
+    "correct": 0
+  },
+  {
+    "question": "Which method detects outliers in datasets?",
+    "options": ["Z-Score Method", "PCA", "Regression", "Clustering"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique is used for feature selection?",
+    "options": ["Correlation Analysis", "Data Normalization", "Data Transformation", "Clustering"],
+    "correct": 0
+  },
+  {
+    "question": "Which metric evaluates clustering performance?",
+    "options": ["Silhouette Score", "Accuracy", "MSE", "R² Score"],
+    "correct": 0
+  },
+  {
+    "question": "Which metric measures linear correlation between variables?",
+    "options": ["Pearson Correlation", "Spearman Correlation", "Chi-Square", "Entropy"],
+    "correct": 0
+  },
+  {
+    "question": "Which method is used to handle categorical variables for ML models?",
+    "options": ["One-Hot Encoding", "Standardization", "Normalization", "Log Transformation"],
+    "correct": 0
+  },
+  {
+    "question": "Which method evaluates regression predictions accuracy?",
+    "options": ["Mean Absolute Error", "F1 Score", "Precision", "Recall"],
+    "correct": 0
+  },
+  {
+    "question": "Which type of data science problem involves discovering patterns?",
+    "options": ["Unsupervised Learning", "Supervised Learning", "Reinforcement Learning", "Regression"],
+    "correct": 0
+  },
+  {
+    "question": "Which step involves presenting insights from data?",
+    "options": ["Data Visualization", "Data Cleaning", "Model Training", "Feature Engineering"],
+    "correct": 0
+  },
+  {
+    "question": "Which technique is used to reduce overfitting in ML models?",
+    "options": ["Regularization", "PCA", "Normalization", "Standardization"],
+    "correct": 0
+  },
+  {
+    "question": "Which method splits data to validate model generalization?",
+    "options": ["Train-Test Split", "PCA", "Normalization", "One-Hot Encoding"],
+    "correct": 0
+  },
+  {
+    "question": "Which type of visualization shows correlation between two numeric variables?",
+    "options": ["Scatter Plot", "Histogram", "Bar Chart", "Pie Chart"],
+    "correct": 0
+  },
+  {
+    "question": "Which algorithm handles classification tasks?",
+    "options": ["Decision Tree", "Linear Regression", "K-Means", "PCA"],
+    "correct": 0
+  },
+  {
+    "question": "Which method finds important features for predictive modeling?",
+    "options": ["Feature Selection", "Normalization", "PCA", "Clustering"],
+    "correct": 0
+  },
+  {
+    "question": "Which method is used for handling imbalanced datasets?",
+    "options": ["SMOTE", "Standardization", "Normalization", "PCA"],
+    "correct": 0
+  },
+  {
+    "question": "Which metric evaluates trade-off between precision and recall?",
+    "options": ["F1 Score", "Accuracy", "MSE", "R² Score"],
+    "correct": 0
+  },
+  {
+    "question": "Which step involves cleaning, transforming, and structuring raw data?",
+    "options": ["Data Preprocessing", "Data Collection", "Model Training", "Feature Engineering"],
+    "correct": 0
+  },
+  {
+    "question": "Which Python library is used for plotting graphs?",
+    "options": ["Matplotlib", "Pandas", "NumPy", "Scikit-learn"],
+    "correct": 0
+  },
+  {
+    "question": "Which step involves creating new input features from existing ones?",
+    "options": ["Feature Engineering", "Data Cleaning", "Model Training", "Data Visualization"],
+    "correct": 0
+  }
+]
+
+}

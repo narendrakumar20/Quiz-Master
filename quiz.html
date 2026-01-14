@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Quiz Master - Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="quiz-header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <h1>CS Quiz Master</h1>
+            </div>
+            <div class="quiz-info">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="quiz-stats">
+                    <span id="question-counter">Question 1 of 10</span>
+                    <span id="score-display">Score: 0</span>
+                </div>
+            </div>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="quiz-main">
+        <div class="container">
+            <div class="quiz-content">
+                <h1 id="topic-title" class="topic-title">Quiz</h1>
+                <div id="question-container" class="question-container">
+                    <div class="question-card">
+                        <div class="question-number">
+                            <i class="fas fa-question-circle"></i>
+                            <span id="question-num">1</span>
+                        </div>
+                        <p id="question" class="question-text"></p>
+                        <div id="options" class="options-grid"></div>
+                    </div>
+                </div>
+                <div class="quiz-controls">
+                    <button id="next-btn" class="btn-primary" style="display: none;">
+                        <span>Next Question</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button id="back-btn" class="btn-secondary" onclick="location.href='index.html'">
+                        <i class="fas fa-home"></i>
+                        <span>Back to Topics</span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="result" class="result-container" style="display: none;">
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h2>Quiz Completed!</h2>
+                    <div class="result-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span id="correct-answers">0</span>
+                            <p>Correct</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-times-circle"></i>
+                            <span id="wrong-answers">0</span>
+                            <p>Wrong</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-percentage"></i>
+                            <span id="percentage">0%</span>
+                            <p>Score</p>
+                        </div>
+                    </div>
+                    <div class="result-message" id="result-message"></div>
+                    <div class="result-actions">
+                        <button onclick="location.href='index.html'" class="btn-primary">
+                            <i class="fas fa-redo"></i>
+                            Try Another Topic
+                        </button>
+                        <button onclick="location.reload()" class="btn-secondary">
+                            <i class="fas fa-refresh"></i>
+                            Retake Quiz
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
