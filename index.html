@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Quiz Master - Computer Science Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <h1>Quiz Master</h1>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <i class="fas fa-book"></i>
+                    <span>17 Topics</span>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-question-circle"></i>
+                    <span>1700+ Questions</span>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-trophy"></i>
+                    <span>Test Your Knowledge</span>
+                </div>
+            </div>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="hero">
+            <h2>Welcome to Computer Science Quiz Master</h2>
+            <p>Challenge yourself with our comprehensive collection of computer science quizzes. Choose from 17 different topics and test your knowledge across various domains.</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming Languages</h3>
+                    <p>Master C, Java, Python, and more</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-database"></i>
+                    <h3>Data & Algorithms</h3>
+                    <p>Explore data structures and algorithms</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI & ML</h3>
+                    <p>Dive into machine learning concepts</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="topics-section">
+                <h2><i class="fas fa-list"></i> Choose Your Topic</h2>
+                <p>Select a topic below to start your quiz journey:</p>
+                <div class="topics-grid">
+                    <button class="topic-btn" onclick="startQuiz('C')" data-tooltip="50 Questions">
+                        <i class="fab fa-cuttlefish"></i>
+                        <span>C Programming</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('JAVA')" data-tooltip="50 Questions">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('PYTHON')" data-tooltip="50 Questions">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('C++ language')" data-tooltip="50 Questions">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Python OOPs')" data-tooltip="50 Questions">
+                        <i class="fab fa-python"></i>
+                        <span>Python OOPs</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Data structures')" data-tooltip="50 Questions">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Data Structures</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Advanced data structures')" data-tooltip="25 Questions">
+                        <i class="fas fa-sitemap"></i>
+                        <span>Advanced DS</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('DAA')" data-tooltip="25 Questions">
+                        <i class="fas fa-chart-line"></i>
+                        <span>DAA</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('DBMS')" data-tooltip="25 Questions">
+                        <i class="fas fa-database"></i>
+                        <span>DBMS</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('TOC')" data-tooltip="25 Questions">
+                        <i class="fas fa-infinity"></i>
+                        <span>Theory of Computation</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Compiler Design')" data-tooltip="50 Questions">
+                        <i class="fas fa-cogs"></i>
+                        <span>Compiler Design</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Machine Learning')" data-tooltip="50 Questions">
+                        <i class="fas fa-robot"></i>
+                        <span>Machine Learning</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Dynamic Programming')" data-tooltip="50 Questions">
+                        <i class="fas fa-calculator"></i>
+                        <span>Dynamic Programming</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Data Warehousing')" data-tooltip="50 Questions">
+                        <i class="fas fa-warehouse"></i>
+                        <span>Data Warehousing</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Data Mining')" data-tooltip="50 Questions">
+                        <i class="fas fa-search"></i>
+                        <span>Data Mining</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Cloud Computing')" data-tooltip="50 Questions">
+                        <i class="fas fa-cloud"></i>
+                        <span>Cloud Computing</span>
+                    </button>
+                    <button class="topic-btn" onclick="startQuiz('Data Science')" data-tooltip="50 Questions">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Data Science</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 A.Narendra Kumar. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/narendrakumar20" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/akula-narendra-kumar-45a891353/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/__narendra_20/" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Question Count Modal -->
+    <div id="question-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Select Number of Questions</h3>
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p id="topic-info">Choose how many questions you want to answer for this topic.</p>
+                <div class="question-selector">
+                    <label for="question-count">Number of Questions:</label>
+                    <input type="number" id="question-count" min="1" max="50" value="10">
+                    <p class="question-limit">Available: <span id="available-questions">50</span> questions</p>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+                    <button class="btn-primary" onclick="startQuizWithCount()">Start Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedTopic = '';
+
+        function startQuiz(topic) {
+            selectedTopic = topic;
+            showQuestionModal(topic);
+        }
+
+        function showQuestionModal(topic) {
+            // Fetch question count for the topic
+            fetch('questions.json')
+                .then(response => response.json())
+                .then(data => {
+                    const questionCount = data[topic] ? data[topic].length : 0;
+                    document.getElementById('available-questions').textContent = questionCount;
+                    document.getElementById('question-count').max = questionCount;
+                    document.getElementById('question-count').value = Math.min(10, questionCount);
+                    document.getElementById('modal-title').textContent = `${topic} Quiz`;
+                    document.getElementById('topic-info').textContent = `Choose how many questions you want to answer for ${topic}.`;
+                    document.getElementById('question-modal').style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error loading questions:', error);
+                    alert('Failed to load question data. Please try again.');
+                });
+        }
+
+        function closeModal() {
+            document.getElementById('question-modal').style.display = 'none';
+        }
+
+        function startQuizWithCount() {
+            const questionCount = parseInt(document.getElementById('question-count').value);
+            const maxQuestions = parseInt(document.getElementById('question-count').max);
+
+            if (questionCount < 1 || questionCount > maxQuestions) {
+                alert(`Please enter a number between 1 and ${maxQuestions}`);
+                return;
+            }
+
+            closeModal();
+            window.location.href = `quiz.html?topic=${encodeURIComponent(selectedTopic)}&questions=${questionCount}`;
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('question-modal');
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+
+        // Dark mode toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const html = document.documentElement;
+            const icon = themeToggle.querySelector('i');
+
+            // Load saved theme
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                html.setAttribute('data-theme', 'dark');
+                icon.className = 'fas fa-sun';
+            }
+
+            themeToggle.addEventListener('click', function() {
+                const currentTheme = html.getAttribute('data-theme');
+                if (currentTheme === 'dark') {
+                    html.removeAttribute('data-theme');
+                    icon.className = 'fas fa-moon';
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    html.setAttribute('data-theme', 'dark');
+                    icon.className = 'fas fa-sun';
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+
+            const topicButtons = document.querySelectorAll('.topic-btn');
+            topicButtons.forEach((btn, index) => {
+                btn.style.animationDelay = `${index * 0.1}s`;
+                btn.classList.add('animate-in');
+            });
+        });
+    </script>
+</body>
+</html>
